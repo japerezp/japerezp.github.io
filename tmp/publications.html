@@ -1,0 +1,1335 @@
+<!DOCTYPE html>
+<!--
+    Plain-Academic by Vasilios Mavroudis
+    Released under the  Simplified BSD License/FreeBSD (2-clause) License.
+    https://github.com/mavroudisv/plain-academic
+
+    Buttons and formatting for paper list from Pyrros Chaidos' website
+    http://www0.cs.ucl.ac.uk/staff/P.Chaidos/
+-->
+
+<style>
+a.buttan:link, a.buttan:visited{
+    color: black;
+    padding: 0px 3px;
+    margin: 1px 0px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border: 1px solid black;
+    position:relative;
+}
+
+a.nf:link, a.nf:visited, .nf {
+    background-color: #b1d2ac;
+}
+a.nf:hover, a.nf:active {
+    background-color: #b1d2ac;
+}
+a.free:link, a.free:visited, .free {
+    background-color: #89C5EA;
+}
+a.free:hover, a.free:active, {
+    background-color: #89C5EA;
+}
+a.talk:link, a.talk:visited, .talk {
+    background-color: #89C5EA;
+}
+a.talk:hover, a.talk:active, {
+    background-color: #89C5EA;
+}
+a.aux:link, a.aux:visited, .aux {
+    background-color: #A08E7A;
+    color: white;
+}
+a.aux:hover, a.aux:active {
+    background-color: #A08E7A;
+}
+ul.vert {
+    border-left: 0px solid red;
+    background-color: #f1f1f1;
+    list-style-type: none;
+}
+ul.vert >li {
+    border-left: 10px solid #f98484;
+    background-color: #f1f1f1;
+    list-style-type: none;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    margin-left: -45px;
+}
+
+ul.jvert {
+    border-left: 0px solid red;
+    background-color: #f1f1f1;
+    list-style-type: none;
+}
+ul.jvert >li {
+    border-left: 10px solid #5846e3;
+    background-color: #f1f1f1;
+    list-style-type: none;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    margin-left: -45px;
+}
+
+a.buttan:after{
+    padding: 5px;
+    display:none;
+    position: absolute;
+    text-align: center;
+    color: #111111;
+    top:-30px;
+    right:30px;
+    width:200px;
+    background-color: #fef4c5;
+    border: 1px solid #d4b943;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -ms-border-radius: 2px;
+    border-radius: 2px;
+	z-index: 98;
+}
+a.buttan:hover:after{
+    display: block;
+}
+
+h2 {
+    font-weight: 100;
+}
+
+/* LAYOUT CSS */
+.pure-img-responsive {
+    max-width: 100%;
+    height: auto;
+}
+
+#layout {
+    padding: 0;
+}
+
+.header {
+    text-align: center;
+    top: auto;
+    margin: 3em auto;
+}
+
+.sidebar {
+    background: rgb(61, 79, 93);
+    color: #fff;
+}
+
+.brand-title,
+.brand-tagline {
+    margin: 0;
+}
+.brand-tagline {
+    font-weight: 300;
+    color: rgb(176, 202, 219);
+}
+
+.nav-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.nav-item {
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+}
+.nav-item a {
+    background: transparent;
+    border: 2px solid rgb(176, 202, 219);
+    color: #fff;
+    margin-top: 1em;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    font-size: 85%;
+}
+.nav-item a:hover,
+.nav-item a:focus {
+    border: 2px solid rgb(61, 146, 201);
+    text-decoration: none;
+}
+
+.content-subhead {
+    text-transform: uppercase;
+    color: #aaa;
+    border-bottom: 1px solid #eee;
+    padding: 0.4em 0;
+    font-size: 80%;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+}
+
+.content {
+    padding: 2em 1em 0;
+}
+
+.post {
+    padding-bottom: 2em;
+}
+.h2 {
+    font-size: 2em;
+    color: #222;
+    margin-bottom: 0.2em;
+}
+
+
+.post-meta {
+    color: #999;
+    font-size: 90%;
+    margin: 0;
+}
+
+.post-category {
+    margin: 0 0.1em;
+    padding: 0.3em 1em;
+    color: #fff;
+    background: #999;
+    font-size: 80%;
+}
+    .post-category-design {
+        background: #5aba59;
+    }
+    .post-category-pure {
+        background: #4d85d1;
+    }
+    .post-category-yui {
+        background: #8156a7;
+    }
+    .post-category-js {
+        background: #df2d4f;
+    }
+
+.post-images {
+    margin: 1em 0;
+}
+.post-image-meta {
+    margin-top: -3.5em;
+    margin-left: 1em;
+    color: #fff;
+    text-shadow: 0 1px 1px #333;
+}
+
+.footer {
+    text-align: center;
+    padding: 1em 0;
+}
+.footer a {
+    color: #ccc;
+    font-size: 80%;
+}
+.footer .pure-menu a:hover,
+.footer .pure-menu a:focus {
+    background: none;
+}
+
+@media (min-width: 48em) {
+    .content {
+        padding: 2em 3em 0;
+        margin-left: 25%;
+    }
+
+    .header {
+        margin: 80% 2em 0;
+        text-align: right;
+    }
+
+    .sidebar {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+    }
+    .nav-item {
+    display:block;    
+    }
+
+}
+
+<!--  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">-->
+  <link rel="stylesheet" href="firstcss.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <link href='https://fonts.googleapis.com/css?family=Oswald:700' rel='stylesheet' type='text/css'>
+
+</style>
+
+  <link rel="stylesheet" href="pure-min.css">
+  <link rel="stylesheet" href="grids-responsive-min.css">
+
+
+<html lang="en">
+<head>
+  <title>Jorge A. Pérez</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <link href='https://fonts.googleapis.com/css?family=Oswald:700' rel='stylesheet' type='text/css'>
+</head>
+<body>
+
+
+<!-- Navigation -->
+    <nav class="navbar navbar-inverse style="margin-left: 100px;"">
+      <div class="container">
+		<ul class="nav navbar-nav">
+              <li><a href="#">Home</a></li>
+              <li><a href="#news">News</a></li> 
+              <li><a href="publications.html">Papers</a></li> 
+              <li><a href="#teaching">Teaching</a></li> 
+              <li><a href="#otherthings">Service</a></li> 
+		</ul>
+	  </div>
+	</nav>
+  <!-- Page Content -->
+    <div class="container">
+        <div class="row">
+            <!-- Contact Info on the Sidebar -->
+            <div class="col-md-3 col-xs-12">
+                <div style="word-wrap: break-word; font-family: 'Oswald', sans-serif; font-size: 32px;"><b>Jorge A. Pérez</b></div><br>
+                <div class="row"> <div class="col-md-10 col-xs-4"> <img class="img-responsive" src="jp2023.jpg" alt=""></div></div><br>
+                <div> <p>Email: j.a.perez at g rug dot nl<br> </div>
+                <div> <p> <a href="http://scholar.google.com/citations?user=NJ4UhIwAAAAJ" target="_blank">Google scholar</a><br> </div>
+                  <div> <p> <a href="http://dl.acm.org/author_page.cfm?id=81339521988" target="_blank">ACM DL</a><br> </div>
+          </div>
+            <!-- Entries Column -->
+            <div class="col-md-8 col-xs-12">
+                
+            <div class="col">    
+                <h2 id="papers">Papers</h2>
+                  <div class="col" ,="" style="max-height: 900px;overflow: scroll;border-color: rgb(224, 223, 247);border-style: solid;border-width: 1px;border-left: 0;border-right: 0;padding: 1em;/*! padding-top: 0; */">  
+                <h3>2025</h3>
+                <ul class="jvert">
+        
+                 
+
+            
+       <li>
+            <strong>Comparing session type systems derived from linear logic</strong>. <br>
+            Bas van den Heuvel and
+Jorge A. Pérez.<br>
+            <a class="buttan free" href="https://doi.org/10.1016/j.jlamp.2024.101004" target="_blank">JLAMP</a>
+            <a class="buttan free" href="https://doi.org/10.48550/arXiv.2401.14763" target="_blank">arXiv</a>
+        </li>
+
+         </ul>   
+
+                
+
+<ul class="vert">
+        
+        <li>
+            <strong>Contrasting Deadlock-Free Session Processes (Extended Version)</strong>. <br>
+            Juan C. Jaramillo and
+Jorge A. Pérez.<br>
+<a class="buttan free" href="https://drops.dagstuhl.de/entities/conference/ECOOP" target="_blank">ECOOP 2025</a>
+            <a class="buttan free" href="https://doi.org/10.48550/arXiv.2504.15845" target="_blank">arXiv</a>
+        </li>
+        
+      </ul>   
+
+                
+
+<h3>2024</h3>
+<ul class="jvert">
+
+        <li>
+            <strong>Minimal session types for the π-calculus</strong>. <br>
+            Alen Arslanagic and
+Jorge A. Pérez and
+Anda-Amelia Palamariuc.<br>
+            <a class="buttan free" href="https://doi.org/10.1016/j.ic.2024.105148" target="_blank">I&C</a>
+        </li>
+        
+        <li>
+            <strong>Asynchronous Session-Based Concurrency: Deadlock-freedom in Cyclic
+Process Networks</strong>. <br>
+            Bas van den Heuvel and
+Jorge A. Pérez.<br>
+            <a class="buttan free" href="https://doi.org/10.46298/lmcs-20(4:6)2024" target="_blank">LMCS</a>
+        </li>
+</ul>
+        <ul class="vert">
+
+        <li>
+            <strong>Around Classical and Intuitionistic Linear Processes</strong>. <br>
+            Juan C. Jaramillo and
+Dan Frumin and
+Jorge A. Pérez.<br>
+            <a class="buttan free" href="https://doi.org/10.4230/LIPIcs.CONCUR.2024.30" target="_blank">CONCUR 2024</a>
+            <a class="buttan free" href="https://doi.org/10.48550/arXiv.2407.06391" target="_blank">arXiv</a>
+        </li>
+        
+        <li>
+            <strong>A Gentle Overview of Asynchronous Session-based Concurrency: Deadlock
+Freedom by Typing</strong>. <br>
+            Bas van den Heuvel and
+Jorge A. Pérez.<br>
+            <a class="buttan free" href="https://doi.org/10.4204/EPTCS.414.1" target="_blank">ICE 2024</a>
+        </li>
+        
+       
+    
+        
+        <li>
+            <strong>Typed Non-determinism in Concurrent Calculi: The Eager Way</strong>. <br>
+            Bas van den Heuvel and
+Daniele Nantes-Sobrinho and
+Joseph W. N. Paulus and
+Jorge A. Pérez.<br>
+            <a class="buttan free" href="https://doi.org/10.46298/entics.14735" target="_blank">MFPS XL</a>
+        </li>
+        
+      </ul>   
+
+      <h3>2023 </h3>
+<ul class="jvert">
+        <li>
+            <strong>Bit-Vector Typestate Analysis</strong>. <br>
+            Alen Arslanagic and
+Pavle Subotic and
+Jorge A. Pérez.<br>
+            <a class="buttan free" href="https://doi.org/10.1145/3595299" target="_blank">FAC</a>
+        </li>
+        
+        <li>
+            <strong>Session-based concurrency in Maude: Executable semantics and type
+checking</strong>. <br>
+            Carlos Alberto Ramírez Restrepo and
+Juan C. Jaramillo and
+Jorge A. Pérez.<br>
+            <a class="buttan free" href="https://doi.org/10.1016/j.jlamp.2023.100872" target="_blank">JLAMP</a>
+        </li>
+        
+        <li>
+            <strong>Non-Deterministic Functions as Non-Deterministic Processes (Extended
+Version)</strong>. <br>
+            Joseph W. N. Paulus and
+Daniele Nantes-Sobrinho and
+Jorge A. Pérez.<br>
+            <a class="buttan free" href="https://doi.org/10.46298/lmcs-19(4:1)2023" target="_blank">LMCS</a>
+        </li>
+</ul>
+        <ul class="vert">
+        
+        <li>
+            <strong>Typed Non-determinism in Functional and Concurrent Calculi</strong>. <br>
+            Bas van den Heuvel and
+Joseph W. N. Paulus and
+Daniele Nantes-Sobrinho and
+Jorge A. Pérez.<br>
+            <a class="buttan free" href="https://doi.org/10.1007/978-981-99-8311-7_6" target="_blank">APLAS 2023</a>
+        </li>
+        
+        <li>
+            <strong>Termination in Concurrency, Revisited</strong>. <br>
+            Joseph W. N. Paulus and
+Jorge A. Pérez and
+Daniele Nantes-Sobrinho.<br>
+            <a class="buttan free" href="https://doi.org/10.1145/3610612.3610615" target="_blank">PPDP 2023</a>
+            <a class="buttan free" href="https://doi.org/10.48550/arXiv.2308.01165" target="_blank">arXiv</a>
+        </li>
+        
+        <li>
+            <strong>Monitoring Blackbox Implementations of Multiparty Session Protocols</strong>. <br>
+            Bas van den Heuvel and
+Jorge A. Pérez and
+Rares A. Dobre.<br>
+            <a class="buttan free" href="https://doi.org/10.1007/978-3-031-44267-4_4" target="_blank">RV 2023</a>
+            <a class="buttan free" href="https://doi.org/10.48550/arXiv.2306.04204" target="_blank">arXiv</a>
+  
+        
+  
+        
+      </ul>   
+
+                
+
+<h3>2022 </h3>
+<ul class="jvert">
+        <li>
+            <strong>Session-based concurrency, declaratively</strong>. <br>
+            Mauricio Cano and
+Hugo A. López and
+Jorge A. Pérez and
+Camilo Rueda.<br>
+            <a class="buttan free" href="https://doi.org/10.1007/s00236-021-00395-w" target="_blank">Acta Informatica</a>
+        </li>
+        
+        <li>
+            <strong>Comparing type systems for deadlock freedom</strong>. <br>
+            Ornela Dardha and
+Jorge A. Pérez.<br>
+            <a class="buttan free" href="https://doi.org/10.1016/j.jlamp.2021.100717" target="_blank">JLAMP</a>
+        </li>
+        
+        <li>
+            <strong>A bunch of sessions: a propositions-as-sessions interpretation of
+bunched implications in channel-based concurrency</strong>. <br>
+            Dan Frumin and
+Emanuele D'Osualdo and
+Bas van den Heuvel and
+Jorge A. Pérez.<br>
+            <a class="buttan free" href="https://doi.org/10.1145/3563318" target="_blank">OOPSLA 2022</a>
+            <a class="buttan free" href="https://doi.org/10.48550/arXiv.2209.05421" target="_blank">arXiv</a>
+        </li>
+        
+        <li>
+            <strong>A decentralized analysis of multiparty protocols</strong>. <br>
+            Bas van den Heuvel and
+Jorge A. Pérez.<br>
+            <a class="buttan free" href="https://doi.org/10.1016/j.scico.2022.102840" target="_blank">SCP</a>
+            <a class="buttan free" href="https://arxiv.org/abs/2101.09038" target="_blank"></a>
+        </li>
+        
+        <li>
+            <strong>Session Coalgebras: A Coalgebraic View on Regular and Context-free
+Session Types</strong>. <br>
+            Alex C. Keizer and
+Henning Basold and
+Jorge A. Pérez.<br>
+            <a class="buttan free" href="https://doi.org/10.1145/3527633" target="_blank">ACM TOPLAS</a>
+        </li>
+        </ul>
+        <ul class="vert">
+        <li>
+            <strong>Scalable Typestate Analysis for Low-Latency Environments</strong>. <br>
+            Alen Arslanagic and
+Pavle Subotic and
+Jorge A. Pérez.<br>
+            <a class="buttan free" href="https://doi.org/10.1007/978-3-031-07727-2_18" target="_blank">IFM 2022</a>
+            <a class="buttan free" href="https://arxiv.org/abs/2201.10627" target="_blank">arXiv</a>
+        </li>
+        
+        <li>
+            <strong>Executable Semantics and Type Checking for Session-Based Concurrency
+in Maude</strong>. <br>
+            Carlos Alberto Ramírez Restrepo and
+Jorge A. Pérez.<br>
+            <a class="buttan free" href="https://doi.org/10.1007/978-3-031-12441-9_12" target="_blank">WRLA 2022</a>
+        </li>
+        
+        <li>
+            <strong>Asynchronous Functional Sessions: Cyclic and Concurrent</strong>. <br>
+            Bas van den Heuvel and
+Jorge A. Pérez.<br>
+            <a class="buttan free" href="https://doi.org/10.4204/EPTCS.368.5" target="_blank">EXPRESS/SOS 2022</a>
+             <a class="buttan free" href="https://doi.org/10.48550/arXiv.2208.07644" target="_blank">arXiv</a>
+        </li>
+        
+         
+        
+        <li>
+            <strong>Functions as Processes: The Case of Collapsing Non-determinism</strong>. <br>
+            Bas van den Heuvel and
+Joseph W. N. Paulus and
+Daniele Nantes-Sobrinho and
+Jorge A. Pérez.<br>
+            <a class="buttan free" href="https://doi.org/10.48550/arXiv.2205.00680" target="_blank">arXiv</a>
+        </li>
+        
+        
+    
+      </ul>   
+
+                
+
+<h3>2021 </h3>
+<ul class="jvert">
+        
+        
+        <li>
+            <strong>On primitives for compensation handling as adaptable processes</strong>. <br>
+            Jovana Dedeic and
+Jovanka Pantovic and
+Jorge A. Pérez.<br>
+            <a class="buttan free" href="https://doi.org/10.1016/j.jlamp.2021.100675" target="_blank">JLAMP</a>
+        </li>
+        
+        <li>
+            <strong>Causal Consistency for Reversible Multiparty Protocols</strong>. <br>
+            Claudio Antares Mezzina and
+Jorge A. Pérez.<br>
+            <a class="buttan free" href="https://doi.org/10.46298/lmcs-17(4:1)2021" target="_blank">LMCS</a>
+        </li>
+
+        <li>
+            <strong>Preface to Special Issue: EXPRESS/SOS 2018</strong>. <br>
+            Jorge A. Pérez and
+Simone Tini.<br>
+            <a class="buttan free" href="https://doi.org/10.1016/j.ic.2020.104670" target="_blank">I&C</a>
+        </li>
+        
+        </ul>
+
+        <ul class="vert">
+        <li>
+            <strong>Session Coalgebras: A Coalgebraic View on Session Types and Communication
+Protocols</strong>. <br>
+            Alex C. Keizer and
+Henning Basold and
+Jorge A. Pérez.<br>
+            <a class="buttan free" href="https://doi.org/10.1007/978-3-030-72019-3_14" target="_blank">ESOP 2021</a>
+            <a class="buttan free" href="https://arxiv.org/abs/2011.05712" target="_blank">arXiv</a>
+        </li>
+        
+        <li>
+            <strong>Non-Deterministic Functions as Non-Deterministic Processes</strong>. <br>
+            Joseph W. N. Paulus and
+Daniele Nantes-Sobrinho and
+Jorge A. Pérez.<br>
+            <a class="buttan free" href="https://doi.org/10.4230/LIPIcs.FSCD.2021.21" target="_blank">FSCD 2021</a>
+            <a class="buttan free" href="https://arxiv.org/abs/2104.14759" target="_blank">arXiv</a>
+        </li>
+        
+        <li>
+            <strong>Minimal Session Types for the π-calculus</strong>. <br>
+            Alen Arslanagic and
+Anda-Amelia Palamariuc and
+Jorge A. Pérez.<br>
+            <a class="buttan free" href="https://doi.org/10.1145/3479394.3479407" target="_blank">PPDP 2021</a>
+            <a class="buttan free" href="https://arxiv.org/abs/2107.10936" target="_blank">arXiv</a>
+        </li>
+        
+        <li>
+            <strong>Types and Terms Translated: Unrestricted Resources in Encoding Functions
+as Processes</strong>. <br>
+            Joseph W. N. Paulus and
+Daniele Nantes-Sobrinho and
+Jorge A. Pérez.<br>
+            <a class="buttan free" href="https://doi.org/10.4230/LIPIcs.TYPES.2021.11" target="_blank">TYPES 2021</a>
+            <a class="buttan free" href="https://arxiv.org/abs/2112.01593" target="_blank">arXiv</a>
+        </li>
+        
+        <li>
+            <strong>Deadlock Freedom for Asynchronous and Cyclic Process Networks</strong>. <br>
+            Bas van den Heuvel and
+Jorge A. Pérez.<br>
+            <a class="buttan free" href="https://doi.org/10.4204/EPTCS.347.3" target="_blank">ICE 2021</a>
+        </li>
+              </ul>   
+
+                
+
+<h3>2020</h3>
+<ul class="vert">
+        
+        <li>
+            <strong>Hyperledger Fabric: Evaluating Endorsement Policy Strategies in Supply
+Chains</strong>. <br>
+            Mark Soelman and
+Vasilios Andrikopoulos and
+Jorge A. Pérez and
+Vasileios Theodosiadis and
+Karel Goense and
+Arne Rutjes.<br>
+            <a class="buttan free" href="https://doi.org/10.1109/DAPPS49028.2020.00019" target="_blank">DAPPS 2020</a>
+        </li>
+        
+        <li>
+            <strong>Session Type Systems based on Linear Logic: Classical versus Intuitionistic</strong>. <br>
+            Bas van den Heuvel and
+Jorge A. Pérez.<br>
+            <a class="buttan free" href="https://doi.org/10.4204/EPTCS.314.1" target="_blank">PLACES 2020</a>
+        </li>
+        
+      
+        
+              </ul>   
+
+                
+
+<h3>2019</h3>
+<ul class="jvert">
+  
+            <li>
+            <strong>On the relative expressiveness of higher-order session processes</strong>. <br>
+            Dimitrios Kouzapas and
+Jorge A. Pérez and
+Nobuko Yoshida.<br>
+            <a class="buttan free" href="https://doi.org/10.1016/j.ic.2019.06.002" target="_blank">I&C</a>
+        </li>
+        </ul>
+
+        <ul class="vert">
+    
+        
+        <li>
+            <strong>Preface to special issue: ICTAC 2015</strong>. <br>
+            Martin Leucker and
+Jorge A. Pérez and
+Camilo Rueda and
+Frank D. Valencia.<br>
+            <a class="buttan free" href="https://doi.org/10.1017/S0960129518000130" target="_blank">MSCS</a>
+        </li>
+        
+        <li>
+            <strong>Domain-Aware Session Types</strong>. <br>
+            Luís Caires and
+Jorge A. Pérez and
+Frank Pfenning and
+Bernardo Toninho.<br>
+            <a class="buttan free" href="https://doi.org/10.4230/LIPIcs.CONCUR.2019.39" target="_blank">CONCUR 2019</a>
+             <a class="buttan free" href="http://arxiv.org/abs/1907.01318" target="_blank">arXiv</a>
+        </li>
+        
+        <li>
+            <strong>Minimal Session Types (Pearl)</strong>. <br>
+            Alen Arslanagic and
+Jorge A. Pérez and
+Erik Voogd.<br>
+            <a class="buttan free" href="https://doi.org/10.4230/LIPIcs.ECOOP.2019.23" target="_blank">ECOOP 2019</a>
+            <a class="buttan free" href="https://doi.org/10.48550/arXiv.2301.05301" target="_blank">arXiv</a>
+            <a class="buttan free" href="http://arxiv.org/abs/1906.03836" target="_blank">arXiv</a>
+            <a class="buttan free" href="https://doi.org/10.4230/DARTS.5.2.5" target="_blank">Artifact</a>
+        </li>
+        
+        <li>
+            <strong>Formal Techniques for Distributed Objects, Components, and Systems
+- 39th IFIP WG 6.1 International Conference, FORTE 2019, Held
+as Part of the 14th International Federated Conference on Distributed
+Computing Techniques, DisCoTec 2019, Kongens Lyngby, Denmark, June
+17-21, 2019, Proceedings</strong>. <br>
+            Editors:
+Jorge A. Pérez, Nobuko Yoshida.<br>
+            <a class="buttan free" href="https://doi.org/10.1007/978-3-030-21759-4" target="_blank">FORTE 2019</a>
+        </li>
+        
+        <li>
+            <strong>Proceedings Combined 26th International Workshop on Expressiveness
+in Concurrency and 16th Workshop on Structural Operational Semantics,
+EXPRESS/SOS 2019, Amsterdam, The Netherlands, 26th August 2019</strong>. <br>
+            Editors: Jorge A. Pérez and Jurriaan Rot<br>
+            <a class="buttan free" href="https://doi.org/10.4204/EPTCS.300" target="_blank">EXPRESS/SOS 2019</a>
+        </li>
+        
+        
+        
+      
+
+              </ul>   
+
+                
+
+<h3>2018</h3>
+<ul class="vert">
+        
+        <li>
+            <strong>Relating Process Languages for Security and Communication Correctness
+(Extended Abstract)</strong>. <br>
+            Daniele Nantes and
+Jorge A. Pérez.<br>
+            <a class="buttan free" href="https://doi.org/10.1007/978-3-319-92612-4_5" target="_blank">FORTE 2018</a>
+        </li>
+        
+        <li>
+            <strong>Reversible Session-Based Concurrency in Haskell</strong>. <br>
+            Folkert de Vries and
+Jorge A. Pérez.<br>
+            <a class="buttan free" href="https://doi.org/10.1007/978-3-030-18506-0_2" target="_blank">TFP 2018</a>
+        </li>
+        
+        <li>
+            <strong>Runtime Verification for Decentralised and Distributed Systems</strong>. <br>
+            Adrian Francalanza and
+Jorge A. Pérez and
+César Sánchez.<br>
+            <a class="buttan free" href="https://doi.org/10.1007/978-3-319-75632-5_6" target="_blank">RV Book</a>
+        </li>
+        
+        <li>
+            <strong>Proceedings Combined 25th International Workshop on Expressiveness
+in Concurrency and 15th Workshop on Structural Operational Semantics,
+EXPRESS/SOS 2018, Beijing, China, September 3, 2018</strong>. <br>
+            No Authors.<br>
+            <a class="buttan free" href="https://doi.org/10.4204/EPTCS.276" target="_blank">EXPRESS/SOS 2018</a>
+        </li>
+        
+        <li>
+            <strong>Comparing Type Systems for Deadlock-Freedom</strong>. <br>
+            Ornela Dardha and
+Jorge A. Pérez.<br>
+            <a class="buttan free" href="http://arxiv.org/abs/1810.00635" target="_blank"></a>
+        </li>
+
+              </ul>   
+
+                
+
+<h3>2017</h3>
+<ul class="jvert">
+        
+        <li>
+            <strong>Characteristic bisimulation for higher-order session processes</strong>. <br>
+            Dimitrios Kouzapas and
+Jorge A. Pérez and
+Nobuko Yoshida.<br>
+            <a class="buttan free" href="https://doi.org/10.1007/s00236-016-0289-7" target="_blank">Acta Informatica</a>
+        </li>
+        
+        <li>
+            <strong>Reversibility in session-based concurrency: A fresh look</strong>. <br>
+            Claudio Antares Mezzina and
+Jorge A. Pérez.<br>
+            <a class="buttan free" href="https://doi.org/10.1016/j.jlamp.2017.03.003" target="_blank">JLAMP</a>
+        </li>
+        </ul>
+
+        <ul class="vert">
+        <li>
+            <strong>Linearity, Control Effects, and Behavioral Types</strong>. <br>
+            Luís Caires and
+Jorge A. Pérez.<br>
+            <a class="buttan free" href="https://doi.org/10.1007/978-3-662-54434-1_9" target="_blank">ESOP 2017</a>
+        </li>
+        
+        <li>
+            <strong>Session-Based Concurrency, Reactively</strong>. <br>
+            Mauricio Cano and
+Jaime Arias and
+Jorge A. Pérez.<br>
+            <a class="buttan free" href="https://doi.org/10.1007/978-3-319-60225-7_6" target="_blank">FORTE 2017</a>
+        </li>
+        
+        <li>
+            <strong>Causally consistent reversible choreographies: a monitors-as-memories
+approach</strong>. <br>
+            Claudio Antares Mezzina and
+Jorge A. Pérez.<br>
+            <a class="buttan free" href="https://doi.org/10.1145/3131851.3131864" target="_blank">PPDP 2017</a>
+            <a class="buttan free" href="http://arxiv.org/abs/1703.06021" target="_blank">arXiv</a>
+        </li>
+
+               <li>
+            <strong>Efficient compensation handling via subjective updates</strong>. <br>
+            Jovana Dedeic,
+                  Jovanka Pantovic and
+Jorge A. Pérez.<br>
+            <a class="buttan free" href="https://doi.org/10.1145/3019612.3019625" target="_blank">SAC 2017</a>
+             </li>
+        </ul>
+        
+    <h3>2016</h3>
+    <ul class="jvert">   
+        <li>
+            <strong>Event-based run-time adaptation in communication-centric systems</strong>. <br>
+            Cinzia Di Giusto and
+Jorge A. Pérez.<br>
+            <a class="buttan free" href="https://doi.org/10.1007/s00165-016-0377-z" target="_blank">FAC</a>
+        </li>
+        
+        <li>
+            <strong>Dynamic role authorization in multiparty conversations</strong>. <br>
+            Silvia Ghilezan and
+Svetlana Jaksic and
+Jovanka Pantovic and
+Jorge A. Pérez and
+Hugo Torres Vieira.<br>
+            <a class="buttan free" href="https://doi.org/10.1007/s00165-016-0363-5" target="_blank">FAC</a>
+        </li>
+        
+        <li>
+            <strong>Self-adaptation and secure information flow in multiparty communications</strong>. <br>
+            Ilaria Castellani and
+Mariangiola Dezani-Ciancaglini and
+Jorge A. Pérez.<br>
+            <a class="buttan free" href="https://doi.org/10.1007/s00165-016-0381-3" target="_blank">FAC</a>
+        </li>
+    </ul>
+
+    <ul class="vert">
+        <li>
+            <strong>On the Relative Expressiveness of Higher-Order Session Processes</strong>. <br>
+            Dimitrios Kouzapas and
+Jorge A. Pérez and
+Nobuko Yoshida.<br>
+            <a class="buttan free" href="https://doi.org/10.1007/978-3-662-49498-1_18" target="_blank">ESOP 2016</a>
+        </li>
+
+              
+        <li>
+            <strong>The Challenge of Typed Expressiveness in Concurrency</strong>. <br>
+    
+Jorge A. Pérez.<br>
+            <a class="buttan free" href="https://doi.org/10.1007/978-3-319-39570-8_16" target="_blank">FORTE 2016</a>
+        </li>
+
+        <li>
+            <strong>Multiparty Session Types Within a Canonical Binary Theory, and Beyond</strong>. <br>
+            Luís Caires and
+Jorge A. Pérez.<br>
+            <a class="buttan free" href="https://doi.org/10.1007/978-3-319-39570-8_6" target="_blank">FORTE 2016</a>
+        </li>
+        
+        <li>
+            <strong>Reversible Semantics in Session-based Concurrency</strong>. <br>
+            Claudio Antares Mezzina and
+Jorge Andrés Pérez.<br>
+            <a class="buttan free" href="https://ceur-ws.org/Vol-1720/short1.pdf" target="_blank">ICTCS 2016</a>
+        </li>
+        
+        <li>
+            <strong>Towards A Practical Model of Reactive Communication-Centric Software</strong>. <br>
+            Jaime Arias and
+Mauricio Cano and
+Jorge Andrés Pérez.<br>
+            <a class="buttan free" href="https://ceur-ws.org/Vol-1720/short2.pdf" target="_blank">ICTCS 2016</a>
+        </li>
+</ul>
+
+<h3>2015</h3>
+         <ul class="jvert"> 
+        
+        <li>
+            <strong>Combining behavioural types with security analysis</strong>. <br>
+            Massimo Bartoletti and
+Ilaria Castellani and
+Pierre-Malo Deniélou and
+Mariangiola Dezani-Ciancaglini and
+Silvia Ghilezan and
+Jovanka Pantovic and
+Jorge A. Pérez and
+Peter Thiemann and
+Bernardo Toninho and
+Hugo Torres Vieira.<br>
+            <a class="buttan free" href="https://doi.org/10.1016/j.jlamp.2015.09.003" target="_blank">JLAMP</a>
+        </li>
+        
+        <li>
+            <strong>Disciplined structured communications with disciplined runtime adaptation</strong>. <br>
+            Cinzia Di Giusto and
+Jorge A. Pérez.<br>
+            <a class="buttan free" href="https://doi.org/10.1016/j.scico.2014.04.017" target="_blank">SCP</a>
+        </li>
+         </ul>
+
+          <ul class="vert">
+        <li>
+            <strong>Characteristic Bisimulation for Higher-Order Session Processes</strong>. <br>
+            Dimitrios Kouzapas and
+Jorge A. Pérez and
+Nobuko Yoshida.<br>
+            <a class="buttan free" href="https://doi.org/10.4230/LIPIcs.CONCUR.2015.398" target="_blank">CONCUR 2015</a>
+        </li>
+        
+        <li>
+            <strong>Declarative interpretations of session-based concurrency</strong>. <br>
+            Mauricio Cano and
+Camilo Rueda and
+Hugo A. López and
+Jorge A. Pérez.<br>
+            <a class="buttan free" href="https://doi.org/10.1145/2790449.2790513" target="_blank">PPDP 2015</a>
+        </li>
+        
+        <li>
+            <strong>An Event-Based Approach to Runtime Adaptation in Communication-Centric
+Systems</strong>. <br>
+            Cinzia Di Giusto and
+Jorge A. Pérez.<br>
+            <a class="buttan free" href="https://doi.org/10.1007/978-3-319-33612-1_5" target="_blank">WS-FM/BEAT 2015</a>
+        </li>
+        
+        <li>
+            <strong>Comparing Deadlock-Free Session Typed Processes</strong>. <br>
+            Ornela Dardha and
+Jorge A. Pérez.<br>
+            <a class="buttan free" href="https://doi.org/10.4204/EPTCS.190.1" target="_blank">EXPRESS/SOS 2015</a>
+        </li>
+        
+        <li>
+            <strong>On Compensation Primitives as Adaptable Processes</strong>. <br>
+            Jovana Dedeic and
+Jovanka Pantovic and
+Jorge A. Pérez.<br>
+            <a class="buttan free" href="https://doi.org/10.4204/EPTCS.190.2" target="_blank">EXPRESS/SOS 2015</a>
+        </li>
+        
+        <li>
+            <strong>A Typed Model for Dynamic Authorizations</strong>. <br>
+            Silvia Ghilezan and
+Svetlana Jaksic and
+Jovanka Pantovic and
+Jorge A. Pérez and
+Hugo Torres Vieira.<br>
+            <a class="buttan free" href="https://doi.org/10.4204/EPTCS.203.6" target="_blank">PLACES 2015</a>
+        </li>
+        
+        <li>
+            <strong>Core Higher-Order Session Processes: Tractable Equivalences and Relative
+Expressiveness</strong>. <br>
+            Dimitrios Kouzapas and
+Jorge A. Pérez and
+Nobuko Yoshida.<br>
+            <a class="buttan free" href="http://arxiv.org/abs/1502.02585" target="_blank"></a>
+        </li>
+        
+        <li>
+            <strong>Combining behavioural types with security analysis</strong>. <br>
+            Massimo Bartoletti and
+Ilaria Castellani and
+Pierre-Malo Deniélou and
+Mariangiola Dezani-Ciancaglini and
+Silvia Ghilezan and
+Jovanka Pantovic and
+Jorge A. Pérez and
+Peter Thiemann and
+Bernardo Toninho and
+Hugo Torres Vieira.<br>
+            <a class="buttan free" href="http://arxiv.org/abs/1510.02229" target="_blank"></a>
+        </li>
+          </ul>
+        <h3>2014</h3>
+        <ul class="vert">
+        <li>
+            <strong>Linear logical relations and observational equivalences for session-based
+concurrency</strong>. <br>
+            Jorge A. Pérez and
+Luís Caires and
+Frank Pfenning and
+Bernardo Toninho.<br>
+            <a class="buttan free" href="https://doi.org/10.1016/j.ic.2014.08.001" target="_blank">I&C</a>
+        </li>
+        
+        <li>
+            <strong>Dynamic Role Authorization in Multiparty Conversations</strong>. <br>
+            Silvia Ghilezan and
+Svetlana Jaksic and
+Jovanka Pantovic and
+Jorge A. Pérez and
+Hugo Torres Vieira.<br>
+            <a class="buttan free" href="https://doi.org/10.4204/EPTCS.162.1" target="_blank">BEAT 2014</a>
+        </li>
+        
+        <li>
+            <strong>Self-Adaptation and Secure Information Flow in Multiparty Structured
+Communications: A Unified Perspective</strong>. <br>
+            Ilaria Castellani and
+Mariangiola Dezani-Ciancaglini and
+Jorge A. Pérez.<br>
+            <a class="buttan free" href="https://doi.org/10.4204/EPTCS.162.2" target="_blank">BEAT 2014</a>
+        </li>
+        
+        <li>
+            <strong>A Typeful Characterization of Multiparty Structured Conversations
+Based on Binary Sessions</strong>. <br>
+            Luís Caires and
+Jorge A. Pérez.<br>
+            <a class="buttan free" href="http://arxiv.org/abs/1407.4242" target="_blank"></a>
+        </li>
+        </ul>
+        <h3>2013</h3>
+        <ul class="vert">
+        <li>
+            <strong>Behavioral Polymorphism and Parametricity in Session-Based Communication</strong>. <br>
+            Luís Caires and
+Jorge A. Pérez and
+Frank Pfenning and
+Bernardo Toninho.<br>
+            <a class="buttan free" href="https://doi.org/10.1007/978-3-642-37036-6_19" target="_blank">ESOP 2013</a>
+        </li>
+        
+        <li>
+            <strong>Disciplined structured communications with consistent runtime adaptation</strong>. <br>
+            Cinzia Di Giusto and
+Jorge A. Pérez.<br>
+            <a class="buttan free" href="https://doi.org/10.1145/2480362.2480716" target="_blank">SAC 2013</a>
+        </li>
+        
+        <li>
+            <strong>Towards Global and Local Types for Adaptation</strong>. <br>
+            Mario Bravetti and
+Marco Carbone and
+Thomas T. Hildebrandt and
+Ivan Lanese and
+Jacopo Mauro and
+Jorge A. Pérez and
+Gianluigi Zavattaro.<br>
+            <a class="buttan free" href="https://doi.org/10.1007/978-3-319-05032-4_1" target="_blank">BEAT 2013</a>
+        </li>
+        
+        <li>
+            <strong>Session Types with Runtime Adaptation: Overview and Examples</strong>. <br>
+            Cinzia Di Giusto and
+Jorge A. Pérez.<br>
+            <a class="buttan free" href="https://doi.org/10.4204/EPTCS.137.3" target="_blank">PLACES 2013</a>
+        </li>
+        
+        <li>
+            <strong>Towards Formal Interaction-Based Models of Grid Computing Infrastructures</strong>. <br>
+            Carlos Alberto Ramírez Restrepo and
+Jorge A. Pérez and
+Jesús Aranda and
+Juan Francisco Díaz.<br>
+            <a class="buttan free" href="https://doi.org/10.4204/EPTCS.144.5" target="_blank">DCM 2013</a>
+        </li>
+        
+        </ul>
+        <h3>2012</h3>
+        <ul class="vert">
+        <li>
+            <strong>Adaptable processes</strong>. <br>
+            Mario Bravetti and
+Cinzia Di Giusto and
+Jorge A. Pérez and
+Gianluigi Zavattaro.<br>
+            <a class="buttan free" href="https://doi.org/10.2168/LMCS-8(4:13)2012" target="_blank">LMCS</a>
+        </li>
+        
+        <li>
+            <strong>Linear Logical Relations for Session-Based Concurrency</strong>. <br>
+            Jorge A. Pérez and
+Luís Caires and
+Frank Pfenning and
+Bernardo Toninho.<br>
+            <a class="buttan free" href="https://doi.org/10.1007/978-3-642-28869-2_27" target="_blank">ESOP 2012</a>
+        </li>
+        
+        <li>
+            <strong>Towards the Verification of Adaptable Processes</strong>. <br>
+            Mario Bravetti and
+Cinzia Di Giusto and
+Jorge A. Pérez and
+Gianluigi Zavattaro.<br>
+            <a class="buttan free" href="https://doi.org/10.1007/978-3-642-34026-0_20" target="_blank">ISoLA 2012</a>
+        </li>
+        
+        </ul>
+        <h3>2011</h3>
+        <ul class="vert">
+        <li>
+            <strong>On the expressiveness and decidability of higher-order process calculi</strong>. <br>
+            Ivan Lanese and
+Jorge A. Pérez and
+Davide Sangiorgi and
+Alan Schmitt.<br>
+            <a class="buttan free" href="https://doi.org/10.1016/j.ic.2010.10.001" target="_blank">I&C</a>
+        </li>
+        
+        <li>
+            <strong>Type-Based Access Control in Data-Centric Systems</strong>. <br>
+            Luís Caires and
+Jorge A. Pérez and
+João Costa Seco and
+Hugo Torres Vieira and
+Lúcio Ferrão.<br>
+            <a class="buttan free" href="https://doi.org/10.1007/978-3-642-19718-5_8" target="_blank">ESOP 2011</a>
+        </li>
+        
+        <li>
+            <strong>Adaptable Processes (Extended Abstract)</strong>. <br>
+            Mario Bravetti and
+Cinzia Di Giusto and
+Jorge A. Pérez and
+Gianluigi Zavattaro.<br>
+            <a class="buttan free" href="https://doi.org/10.1007/978-3-642-21461-5_6" target="_blank">FMOODS-FORTE 2011</a>
+        </li>
+        
+        <li>
+            <strong>Time and Exceptional Behavior in Multiparty Structured Interactions</strong>. <br>
+            Hugo A. López and
+Jorge A. Pérez.<br>
+            <a class="buttan free" href="https://doi.org/10.1007/978-3-642-29834-9_5" target="_blank">WS-FM 2011</a>
+        </li>
+        
+            </ul>
+        <h3>2010</h3>
+        <ul class="jvert">
+<li>
+            <strong>Higher-Order Concurrency: Expressiveness and Decidability</strong>. <br>
+Jorge A. Pérez.<br>
+            <a class="buttan free" href="http://bulletin.eatcs.org/index.php/beatcs/article/view/182" target="_blank">Bull. EATCS</a>
+        </li>
+        </ul>
+
+    <ul class="vert">
+        <li>
+            <strong>Steps on the Road to Component Evolvability</strong>. <br>
+            Mario Bravetti and
+Cinzia Di Giusto and
+Jorge A. Pérez and
+Gianluigi Zavattaro.<br>
+            <a class="buttan free" href="https://doi.org/10.1007/978-3-642-27269-1_19" target="_blank">FACS 2010</a>
+        </li>
+        
+    
+        <li>
+            <strong>On the Expressiveness of Polyadic and Synchronous Communication in
+Higher-Order Process Calculi</strong>. <br>
+            Ivan Lanese and
+Jorge A. Pérez and
+Davide Sangiorgi and
+Alan Schmitt.<br>
+            <a class="buttan free" href="https://doi.org/10.1007/978-3-642-14162-1_37" target="_blank">ICALP 2010</a>
+        </li>
+        
+            </ul>
+        <h3>2009</h3>
+        <ul class="vert">
+        <li>
+            <strong>An Overview of FORCES: An INRIA Project on Declarative Formalisms
+for Emergent Systems</strong>. <br>
+            Jesús Aranda and
+Gérard Assayag and
+Carlos Olarte and
+Jorge A. Pérez and
+Camilo Rueda and
+Mauricio Toro and
+Frank D. Valencia.<br>
+            <a class="buttan free" href="https://doi.org/10.1007/978-3-642-02846-5_44" target="_blank">ICLP 2009</a>
+        </li>
+        
+        <li>
+            <strong>On the Expressiveness of Forwarding in Higher-Order Communication</strong>. <br>
+            Cinzia Di Giusto and
+Jorge A. Pérez and
+Gianluigi Zavattaro.<br>
+            <a class="buttan free" href="https://doi.org/10.1007/978-3-642-03466-4_10" target="_blank">ICTAC 2009</a>
+        </li>
+        
+        <li>
+            <strong>Move vs Copy: Towards a Formal Comparison of Ambients and Higher-Order
+Process Calculi</strong>. <br>
+            Cinzia Di Giusto and
+Jorge A. Pérez.<br>
+            <a class="buttan free" href="" target="_blank">ICTCS 2009</a>
+        </li>
+        
+        <li>
+            <strong>On the Expressiveness of Polyadicity in Higher-Order Process Calculi</strong>. <br>
+            Ivan Lanese and
+Jorge A. Pérez and
+Davide Sangiorgi and
+Alan Schmitt.<br>
+            <a class="buttan free" href="" target="_blank">ICTCS 2009</a>
+        </li>
+        
+        <li>
+            <strong>Towards a Unified Framework for Declarative Structured Communications</strong>. <br>
+            Hugo A. López and
+Carlos Olarte and
+Jorge A. Pérez.<br>
+            <a class="buttan free" href="https://doi.org/10.4204/EPTCS.17.1" target="_blank">PLACES 2009</a>
+        </li>
+        
+            </ul>
+        <h3>2008</h3>
+        <ul class="vert">
+        <li>
+            <strong>Non-determinism and Probabilities in Timed Concurrent Constraint Programming</strong>. <br>
+            Jorge A. Pérez and
+Camilo Rueda.<br>
+            <a class="buttan free" href="https://doi.org/10.1007/978-3-540-89982-2_56" target="_blank">ICLP 2008</a>
+        </li>
+        
+        <li>
+            <strong>Stochastic Behavior and Explicit Discrete Time in Concurrent Constraint
+Programming</strong>. <br>
+            Jesús Aranda and
+Jorge A. Pérez and
+Camilo Rueda and
+Frank D. Valencia.<br>
+            <a class="buttan free" href="https://doi.org/10.1007/978-3-540-89982-2_57" target="_blank">ICLP 2008</a>
+        </li>
+        
+        <li>
+            <strong>On the Expressiveness and Decidability of Higher-Order Process Calculi</strong>. <br>
+            Ivan Lanese and
+Jorge A. Pérez and
+Davide Sangiorgi and
+Alan Schmitt.<br>
+            <a class="buttan free" href="https://doi.org/10.1109/LICS.2008.8" target="_blank">LICS 2008</a>
+        </li>
+        
+              </ul>   
+
+                
+
+<h3>2006</h3>
+<ul class="vert">
+
+        <li>
+            <strong>A Declarative Framework for Security: Secure Concurrent Constraint
+Programming</strong>. <br>
+            Hugo A. López and
+Catuscia Palamidessi and
+Jorge Andrés Pérez and
+Camilo Rueda and
+Frank D. Valencia.<br>
+            <a class="buttan free" href="https://doi.org/10.1007/11799573_43" target="_blank">ICLP 2006</a>
+        </li>
+        
+        <li>
+            <strong>Timed Concurrent Constraint Programming for Analysing Biological Systems</strong>. <br>
+            Julian Gutierrez and
+Jorge A. Pérez and
+Camilo Rueda and
+Frank D. Valencia.<br>
+            <a class="buttan free" href="https://doi.org/10.1016/j.entcs.2007.05.012" target="_blank">MeCBIC@ICALP 2006</a>
+        </li>
+
+              </ul>   
+
+                
+
+<h3>2005</h3>
+<ul class="vert">
+        
+        <li>
+            <strong>Implementing an Abstraction Framework for Soft Constraints</strong>. <br>
+            Alberto Delgado and
+Jorge Andrés Pérez and
+Camilo Rueda.<br>
+            <a class="buttan free" href="https://doi.org/10.1007/11527862_5" target="_blank">SARA 2005</a>
+        </li>
+        
+              </ul>   
+
+                
+
+<h3>2004</h3>
+<ul class="vert">
+
+        <li>
+            <strong>Implementing Semiring-Based Constraints Using Mozart</strong>. <br>
+            Alberto Delgado and
+Carlos Alberto Olarte and
+Jorge Andrés Pérez and
+Camilo Rueda.<br>
+            <a class="buttan free" href="https://doi.org/10.1007/978-3-540-31845-3_19" target="_blank">MOZ 2004</a>
+        </li>
+        
+        <li>
+            <strong>An Interactive Tool for the Controlled Execution of an Automated Timetabling
+Constraint Engine</strong>. <br>
+            Alberto Delgado and
+Jorge Andrés Pérez and
+Gustavo Pabón and
+Rafael Jordan and
+Juan Francisco Díaz and
+Camilo Rueda.<br>
+            <a class="buttan free" href="https://doi.org/10.1007/978-3-540-31845-3_26" target="_blank">MOZ 2004</a>
+        </li>
+        
+        
+    
+
+
+       </ul>       
+            </div>
+</div>
+
+            
+        </div>
+                </div>
+    </div>
+    </div>
+    
+    <a style="color:#b5bec9;font-size:0.8em; float:right;" href="https://github.com/mavroudisv/plain-academic">The template is by Vasilios Mavroudis. Thanks!</a> 
+    
+</body>
+
+</html>
