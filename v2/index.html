@@ -13,9 +13,9 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid px-5">
-            <a class="navbar-brand" href="#">Jorge A. Pérez</a>
+            <a class="navbar-brand" href="https://jperez.nl">Jorge A. Pérez</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -61,12 +61,15 @@
         </div>
     </nav>
 
+    <!-- --------------------------------------------------------------------------- -->
+    <!-- HOME -->
+    <!-- --------------------------------------------------------------------------- -->
+
     <div class="container-fluid bg-light py-5">
         <div class="col-lg-8 offset-lg-2">
             <div class="row">
                 <div class="col-lg-4 p-0">
-                    <img src="https://lh3.googleusercontent.com/sitesv/AICyYdb5TgVxkmfwqP8xeSnxFr-6aSyu4fr9bDVI80dLpRREJL-NcqNQGs5mbS2cJkRLHtdNcaYdMpWCZQ4LwtxIuM1yt_NnX0u-1w84nnkoEyWFOzGEoaLgn6YxTDFasVNLQlE1S2G77COSJgnvqaO6AcqHKQ0lnw4g-3peRr0nTRZDJIUDKTMGX5sUfQU0YFJwPlrbnsN00-oWLN1kePR77qemxlOSz7Hw9relk-o=w1280"
-                        width="300" class="img-fluid" alt="Jorge A. Pérez">
+                    <img src="https://placecats.com/millie/300/300" width="300" class="img-fluid" alt="Jorge A. Pérez">
                 </div>
                 <div class="col-lg-7 offset-lg-1 p-0">
                     <h1>Jorge A. Pérez</h1>
@@ -81,8 +84,11 @@
                     <p>Project coordinator (lead PI), <a href="https://cyclic-structures.gitlab.io/" target="_blank"
                             class="fw-bold">Cyclic Structures in Programs and Proofs</a> (NWO ENW XL).</p>
                     <p><a href="http://japerezp.github.io/files/PerezCV.pdf" target="_blank" class="fw-bold">My CV</a>
-                        // <a href="AAA" target="_blank">DBLP</a> // <a href="AAA" target="_blank">Google Scholar</a> //
-                        <a href="AAA" target="_blank">ORCID</a> // <a href="AAA" target="_blank">ACM DL</a>.
+                        // <a href="https://dblp.uni-trier.de/pid/p/JorgeAPerez.html" target="_blank">DBLP</a> // <a
+                            href="http://scholar.google.com/citations?user=NJ4UhIwAAAAJ" target="_blank">Google
+                            Scholar</a> //
+                        <a href="http://orcid.org/0000-0002-1452-6180" target="_blank">ORCID</a> // <a
+                            href="http://dl.acm.org/author_page.cfm?id=81339521988" target="_blank">ACM DL</a>.
                     </p>
                     <p><span class="fw-bold">Email</span>: j.a.perez/at/rug.nl</p>
                 </div>
@@ -95,43 +101,81 @@
                 <div class="col-lg-12">
                     <h3>Research interests</h3>
                     <ul>
-                        <li>Rigorous programming models with concurrency (in particular, process calculi) and their
+                        <li>Rigorous programming models with concurrency (in particular, <a
+                                href="https://en.wikipedia.org/wiki/Process_calculus" target="_blank">process
+                                calculi</a>) and their
                             verification techniques.</li>
-                        <li>Type systems for concurrency (in particular, session types) and their logical foundations.
+                        <li><a href="http://en.wikipedia.org/wiki/Type_system" target="_blank">Type systems</a> for
+                            concurrency (in particular, <a href="https://en.wikipedia.org/wiki/Session_type"
+                                target="_blank">session types</a>) and their <a
+                                href="https://www.jperez.nl/research/choco" target="_blank">logical foundations</a>.
                         </li>
-                        <li>The expressive power of models of concurrency, both typed and untyped.</li>
+                        <li><a href="https://express-sos.github.io/" target="_blank">The expressive power</a> of models
+                            of concurrency, both typed and untyped.</li>
                     </ul>
                     <h3>Current students</h3>
                     <ul>
-                        <li>Juan C. Jaramillo</li>
+                        <li><a href="https://www.rug.nl/staff/j.c.jaramillo.londono/" target="_blank">Juan C.
+                                Jaramillo</a></li>
                     </ul>
-                    <p>For a full list of past students and postdocs, please click here.</p>
+                    <p>For a full list of past students and postdocs, please click <a href="#team">here</a>.</p>
                     <h3>Recent papers</h3>
                     <ul>
-                        <li>ECOOP 2025: Contrasting Deadlock-Free Session Processes (Jaramillo, Pérez)</li>
-                        <li>Information and Computation: Minimal Session Types for the pi-calculus (Arslanagic, Pérez,
+                        <li><span class="fw-bold">ECOOP 2025</span>: <span class="fst-italic"><a
+                                    href="https://arxiv.org/abs/2504.15845" target="_blank">Contrasting Deadlock-Free
+                                    Session Processes</a></span> (<a
+                                href="https://www.rug.nl/staff/j.c.jaramillo.londono/" target="_blank">Jaramillo</a>,
+                            Pérez)</li>
+                        <li><span class="fw-bold">Information and Computation</span>: <span class="fst-italic"><a
+                                    href="https://doi.org/10.1016/j.ic.2024.105148" target="_blank">Minimal Session
+                                    Types for the pi-calculus</a></span> (<a href="https://alenarslanagic.net/"
+                                target="_blank">Arslanagic</a>, Pérez,
                             Palamariuc)</li>
-                        <li>CONCUR 2024: Around Classical and Intuitionistic Linear Processes (Jaramillo, Frumin, Pérez)
+                        <li><span class="fw-bold">CONCUR 2024</span>: <span class="fst-italic"><a
+                                    href="http://arxiv.org/abs/2407.06391" target="_blank">Around Classical and
+                                    Intuitionistic Linear Processes</a></span> (<a
+                                href="https://www.rug.nl/staff/j.c.jaramillo.londono/" target="_blank">Jaramillo</a>, <a
+                                href="https://groupoid.moe/" target="_blank">Frumin</a>, Pérez)
                         </li>
-                        <li>MFPS 2024: Typed Non-determinism in Concurrent Calculi: The Eager Way (Van den Heuvel,
+                        <li><span class="fw-bold">MFPS 2024</span>: <span class="fst-italic"><a
+                                    href="https://arxiv.org/abs/2205.00680" target="_blank">Typed Non-determinism in
+                                    Concurrent Calculi: The Eager Way</a></span> (<a
+                                href="https://basvdheuvel.github.io/" target="_blank">Van den Heuvel</a>,
                             Paulus, Nantes-Sobrinho, Pérez)</li>
                     </ul>
-                    <p>For a full list, please click here.</p>
+                    <p>For a full list, please click <a href="#publications">here</a>.</p>
                     <h3>Recent talks</h3>
                     <ul>
-                        <li>D-Con 2025 (Invited Talk): Contrasting Deadlock-Free Typed Processes</li>
-                        <li>LIPN, Paris (LoVe seminar): Around Classical and Intuitionistic Linear Processes</li>
-                        <li>IRIF, Paris (La syntaxe rencontre la sémantique): The Expressiveness of Session Types</li>
-                        <li>CONCUR 2024: Around Classical and Intuitionistic Linear Processes</li>
-                        <li>ESSLLI 2024 (Foundational Course): Propositions as Sessions</li>
-                        <li>ITRS 2024: Intersection Types Meet Session Types</li>
-                        <li>ICE 2024 (Invited talk): Asynchronous Session-Based Concurrency</li>
-                        <li>Dutch Formal Methods Day 2024: A Logical Basis for the Verification of Message-Passing
-                            Programs</li>
-                        <li>Forum Numerica (Invited seminar): Asynchronous Session-Based Concurrency: Deadlock-Freedom
-                            in Cyclic Process Networks
-                        <li>Dagstuhl Seminar 24051 - Next Generation Protocols for Heterogeneous Systems: Router-based
-                            Analysis of Multiparty Protocols</li>
+                        <li><a href="https://intranet.uni-augsburg.de/en/fakultaet/fai/informatik/prof/swtti/forschung/d-con-2025/"
+                                target="_blank">D-Con 2025</a> (Invited Talk): <span class="fst-italic">Contrasting
+                                Deadlock-Free Typed Processes</span></li>
+                        <li><a href="https://lipn.univ-paris13.fr/" target="_blank">LIPN, Paris</a> (<a
+                                href="https://lipn.univ-paris13.fr/love/" target="_blank"></a>LoVe seminar</a>): <span
+                                class="fst-italic">Around Classical and Intuitionistic Linear Processes</span></li>
+                        <li><a href="https://www.irif.fr/index" target="_blank">IRIF, Paris</a> (<a
+                                href="https://www.irif.fr/seminaires/sms/index" target="_blank"></a>La syntaxe rencontre
+                            la sémantique</a>): <span class="fst-italic">The Expressiveness of Session Types</span></li>
+                        <li><a href="https://confest2024.github.io/index.html" target="_blank">CONCUR 2024</a>: <span
+                                class="fst-italic">Around Classical and Intuitionistic Linear Processes</span></li>
+                        <li><a href="https://2024.esslli.eu/" target="_blank">ESSLLI 2024</a> (<a
+                                href="https://groupoid.moe/esslli2024/" target="_blank"></a>Foundational Course</a>):
+                            <span class="fst-italic">Propositions as Sessions</span></li>
+                        <li><a href="https://itrs2024.di.unito.it/" target="_blank">ITRS 2024</a>: Intersection <span
+                                class="fst-italic">Types Meet Session Types</span></li>
+                        <li><a href="https://www.discotec.org/2024/ice" target="_blank">ICE 2024</a> (Invited talk):
+                            <span class="fst-italic">Asynchronous Session-Based Concurrency</span></li>
+                        <li><a href="https://conf.researchr.org/home/dfdm-2024" target="_blank">Dutch Formal Methods Day
+                                2024</a>: <span class="fst-italic">A Logical Basis for the Verification of
+                                Message-Passing
+                                Programs</span></li>
+                        <li><a href="https://ds4h.univ-cotedazur.eu/research-and-labs/forum-numerica-seminar-series/forum-numerica-jorge-perez-asynchronous-session-based-concurrency-deadlock-freedom-in-cyclic-process-networks"
+                                target="_blank">Forum Numerica</a> (Invited seminar): <span
+                                class="fst-italic">Asynchronous Session-Based Concurrency: Deadlock-Freedom
+                                in Cyclic Process Networks</span></li>
+                        <li><a href="https://www.dagstuhl.de/seminars/seminar-calendar/seminar-details/24051"
+                                target="_blank">Dagstuhl Seminar 24051 - Next Generation Protocols for Heterogeneous
+                                Systems</a>: <span class="fst-italic">Router-based
+                                Analysis of Multiparty Protocols</span></li>
                     </ul>
                 </div>
             </div>
@@ -161,6 +205,155 @@
             </div>
         </div>
     </div>
+
+    <hr class="border border-danger border-1">
+
+    <!-- --------------------------------------------------------------------------- -->
+    <!-- TEAM -->
+    <!-- --------------------------------------------------------------------------- -->
+
+    <div class="container-fluid py-5">
+        <div class="col-lg-8 offset-lg-2">
+            <h1 id="team">Team</h1>
+            <p>I am fortunate to work with (<span class="fst-italic">and learn from</span>) a fantastic group of young researchers!</p>
+            <h3>Current PhD Students</h3>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <img src="https://placecats.com/millie/200/200" width="200" class="img-fluid" alt="xxx">
+                        </div>
+                        <div class="col-lg-8">
+                            <h5><a href="xxx" target="_blank">Juan C. Jaramillo</a> (2022-2026) [<a href="xxx" target="_blank">DBLP</a>]</h5>
+                            <p>Research on linear logic and session-based concurrency.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <h3>Former PhD Students</h3>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <img src="https://placecats.com/millie/200/200" width="200" class="img-fluid" alt="xxx">
+                        </div>
+                        <div class="col-lg-8">
+                            <h5><a href="xxx" target="_blank">Joseph Paulus</a> (2024) [<a href="xxx" target="_blank">DBLP</a>]</h5>
+                            <p>PhD student. Thesis: <span class="fst-italic">On the Expressivity of Typed Concurrent Calculi</span> [<a href="xxx" class="fw-bold" target="_blank">DOI</a>] Extended version: [<a href="xxx" target="_blank">DOI</a>]</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <img src="https://placecats.com/millie/200/200" width="200" class="img-fluid" alt="xxx">
+                        </div>
+                        <div class="col-lg-8">
+                            <h5><a href="xxx" target="_blank">Bas van den Heuvel</a> (2024) [<a href="xxx" target="_blank">DBLP</a>]</h5>
+                            <p>PhD student. Thesis: <span class="fst-italic">Correctly Communicating Software: Distributed, Asynchronous, and Beyond</span> [<a href="xxx" class="fw-bold" target="_blank">LINK</a>]</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <img src="https://placecats.com/millie/200/200" width="200" class="img-fluid" alt="xxx">
+                        </div>
+                        <div class="col-lg-8">
+                            <h5><a href="xxx" target="_blank">Alen Arslanagić</a> (2023) [<a href="xxx" target="_blank">DBLP</a>]</h5>
+                            <p>PhD student. Thesis: <span class="fst-italic">Minimal Structures for Program Analysis and Verification</span> [<a href="xxx" class="fw-bold" target="_blank">DOI</a>]</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <img src="https://placecats.com/millie/200/200" width="200" class="img-fluid" alt="xxx">
+                        </div>
+                        <div class="col-lg-8">
+                            <h5><a href="xxx" target="_blank">Jovana Dedeić</a> (2022) [<a href="xxx" target="_blank">DBLP</a>]</h5>
+                            <p>PhD student, co-supervised with <a href="xxx" target="_blank">Vanja Pantović</a>. Thesis: <span class="fst-italic">Relative Expressiveness of Process Calculi with Dynamic Update and Runtime Adaptation</span> [<a href="xxx" class="fw-bold" target="_blank">LINK</a>]</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <img src="https://placecats.com/millie/200/200" width="200" class="img-fluid" alt="xxx">
+                        </div>
+                        <div class="col-lg-8">
+                            <h5><a href="xxx" target="_blank">Mauricio Cano</a> (2020) [<a href="xxx" target="_blank">DBLP</a>]</h5>
+                            <p>PhD student. Thesis: <span class="fst-italic">Session-based concurrency: between operational and declarative views</span> [<a href="xxx" class="fw-bold" target="_blank">DOI</a>]</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <img src="https://placecats.com/millie/200/200" width="200" class="img-fluid" alt="xxx">
+                        </div>
+                        <div class="col-lg-8">
+                            <h5><a href="xxx" target="_blank">Dr. Dan Frumin</a></h5>
+                            <p>Postdoc, NWO VIDI (Oct 2020 - Feb 2023)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <h3>BSc and MSc Students (Incomplete)</h3>
+            <h5>MSc students</h5>
+            <ul>
+                <li>Jeroen Brandsma (2018, co-supervised with <a href="xxx" target="_blank">Paris Avgeriou</a>)</li>
+                <li>Firat Sertgoz (2018, co-supervised with <a href="xxx" target="_blank">Marco Aiello</a>)</li>
+                <li>Bas van den Heuvel (2019, UvA - co-supervised with <a href="xxx" target="_blank">Alban Ponse</a>)</li>
+            </ul>
+            <h5>BSc students</h5>
+            <ul>
+                <li>Elton Antonis (2018, Honours College and BSc Thesis)</li>
+                <li>Alexandru Babeanu (2018, co-supervised with <a href="xxx" target="_blank">Mauricio Cano</a>)</li>
+                <li>Barnabas Busa (2018, co-supervised with <a href="xxx" target="_blank">Vasilios Andrikopoulos</a>)</li>
+                <li>Alex Keizer (2020, UL - main supervisor <a href="xxx" target="_blank">Henning Basold</a>)</li>
+                <li>Daan Raatjes (2018, Honours College)</li>
+                <li>Luis D. Reyes (2020)</li>
+                <li>Ana Roman (2017)</li>
+                <li>Kanghu Shi (2020, Honours College)</li>
+                <li>Bianca Udrescu (2019)</li>
+                <li>Jakob Vokac (2019)</li>
+                <li>Erik Voogd (2018)</li>
+                <li>Folkert de Vries (2018)</li>
+                <li>Evi Xhelo (2019)</li>
+            </ul>
+        </div>
+    </div>
+
+    <hr class="border border-danger border-1">
+
+    <!-- --------------------------------------------------------------------------- -->
+    <!-- PUBLICATIONS -->
+    <!-- --------------------------------------------------------------------------- -->
+
+    <div class="container-fluid bg-light py-5">
+        <div class="col-lg-10 offset-lg-1">
+            <div class="row">
+                <p class="text-center fs-5">
+                    <a href="xxx" target="_blank">[DBLP]</a> &nbsp;-&nbsp;
+                    <a href="xxx" target="_blank">[Google scholar]</a> &nbsp;-&nbsp;
+                    <a href="xxx" target="_blank">[ORCID]</a> &nbsp;-&nbsp;
+                    <a href="xxx" target="_blank">[ACM DL]</a> &nbsp;-&nbsp;
+                    <a href="xxx" target="_blank">[ResearcherID]</a> &nbsp;-&nbsp;
+                    <a href="xxx" target="_blank">[Scopus]</a> &nbsp;-&nbsp;
+                    <a href="xxx" target="_blank">[MathSciNet]</a>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <hr class="border border-danger border-1">
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
