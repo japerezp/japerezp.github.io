@@ -2,11 +2,7 @@
 layout: home
 ---
 
-<div>
-    <div style="flex: 0 0 300px;">
-        <img src="https://lh3.googleusercontent.com/sitesv/APaQ0SSgy9xLFMFVOKSdr_Mb89D7xcvb7eIb0sN36U7KfV1haOuMYQ2ZqX74JpjFyp8YxGGbkWXMKP2df1rp8pjPTcpRpNo4zxIx4BuN2eOyLqUm6vdW9KyaRFttHom1l-r7mEb90XzFT5HX0QkPO8iwYLb--DUr4UiRgRZSGqYagHxit94FI9T_YJs2Qbah0oo2gCfUGpBJM4Y9tdmUjeRKARlA2bwcvpNdFBQVQss=w300" width="300" alt="Jorge A. Pérez" style="max-width:100%; height:auto;">
-    </div>
-</div>
+![Jorge A. Pérez](https://lh3.googleusercontent.com/sitesv/APaQ0SSgy9xLFMFVOKSdr_Mb89D7xcvb7eIb0sN36U7KfV1haOuMYQ2ZqX74JpjFyp8YxGGbkWXMKP2df1rp8pjPTcpRpNo4zxIx4BuN2eOyLqUm6vdW9KyaRFttHom1l-r7mEb90XzFT5HX0QkPO8iwYLb--DUr4UiRgRZSGqYagHxit94FI9T_YJs2Qbah0oo2gCfUGpBJM4Y9tdmUjeRKARlA2bwcvpNdFBQVQss=w300)
 
 &nbsp;
 

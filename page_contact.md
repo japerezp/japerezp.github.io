@@ -4,4 +4,4 @@ title: Contact
 permalink: /contact/
 ---
 
-TBD.
+CONTACT.

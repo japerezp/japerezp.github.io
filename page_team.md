@@ -4,4 +4,4 @@ title: Team
 permalink: /team/
 ---
 
-TBD.
+TEAM.
