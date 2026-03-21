@@ -6,8 +6,7 @@ permalink: /team/
 
 I am fortunate to work with (*and learn from*) a fantastic group of young researchers! <br>
 
----
-<br>
+<div class="spacer"></div>
 
 ### Current PhD students
 
@@ -19,7 +18,7 @@ I am fortunate to work with (*and learn from*) a fantastic group of young resear
 * Research on coalgebraic and semantic approaches to session types (NWO XL)
 * Expected graduation: August 2029.
 
-
+<div class="spacer"></div>
 
 ### Former PhD Students and Postdocs
 
@@ -39,7 +38,6 @@ I am fortunate to work with (*and learn from*) a fantastic group of young resear
 #### Mauricio Cano (2020)
 * PhD student. Thesis: *Session-based concurrency: between operational and declarative views* [(DOI)](https://doi.org/10.33612/diss.108552669).
 * **Third place, [VERSEN PhD thesis award 2020](https://www.versen.nl/news_items/phd-awards-2020-announced/)**.
-
 
 #### Dr. Dan Frumin
 * Postdoc, NWO VIDI (Oct 2020 - Feb 2023)

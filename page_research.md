@@ -5,11 +5,11 @@ permalink: /research/
 ---
 
 ### Research Interests
-* Rigorous programming models with concurrency (in particular, process calculi) and their verification techniques.
+* Rigorous programming models with concurrency (in particular, [process calculi](https://en.wikipedia.org/wiki/Process_calculus)) and their verification techniques.
+* [Type systems](http://en.wikipedia.org/wiki/Type_system) for concurrency (in particular, [session types](https://en.wikipedia.org/wiki/Session_type)) and their [logical foundations](https://www.jperez.nl/research/choco).
+* [The expressive power](https://express-sos.github.io/) of models of concurrency, both typed and untyped.
 
-* Type systems for concurrency (in particular, session types) and their logical foundations.
-
-* The expressive power of models of concurrency, both typed and untyped.
+<div class="spacer"></div>
 
 ### Projects 
 
@@ -27,6 +27,7 @@ permalink: /research/
 * BETTY Behavioral Types for Reliable Large-Scale Software Systems - EU COST Action IC1201 (2012-2016). Management Committee member
 * INTERFACES CMU-Portugal.
 
+<div class="spacer"></div>
 
 ### Service
 Scientific events (workshops, conferences, research schools) in which I am or have been involved. 
@@ -42,6 +43,7 @@ Scientific events (workshops, conferences, research schools) in which I am or ha
 * D-Con 25: German workshop on Concurrency Theory (Invited Speaker)
 * RADICAL 2025: Recent Advances in Concurrency and Logic (PC co-chair)
 
+<div class="spacer"></div>
 
 ### Organizations
 * ACM SIGLOG 

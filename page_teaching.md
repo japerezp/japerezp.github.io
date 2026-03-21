@@ -21,7 +21,7 @@ permalink: /teaching/
 * [Course Website](https://ocasys.rug.nl/current/catalog/course/WMCS026-05)
 * [Schedules](https://rooster.rug.nl/#/en/current/schedule/course-WMCS026-05/timeRange=all)
 
----
+<div class="spacer"></div>
 
 ### Student Projects
 
