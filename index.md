@@ -17,8 +17,8 @@ intro: |  # This should be Markdown
 details: |  # This should be Markdown
   ## Research Interests
   - Rigorous programming models with concurrency (in particular, [process calculi](https://en.wikipedia.org/wiki/Process_calculus)) and their verification techniques.
-  - [Type systems](http://en.wikipedia.org/wiki/Type_system) for concurrency (in particular, [session types](https://en.wikipedia.org/wiki/Session_type)) and their [logical foundations](https://www.jperez.nl/research/choco).
-  - [The expressive power](https://express-sos.github.io/) of models of concurrency, both typed and untyped.
+  - [Type systems](http://en.wikipedia.org/wiki/Type_system) for concurrency (in particular, [session types](https://en.wikipedia.org/wiki/Session_type)) and their logical foundations.
+  - The [expressive power](https://express-sos.github.io/) of models of concurrency, both typed and untyped.
 ---
 
 <div class="home intro">
