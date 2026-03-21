@@ -3,43 +3,64 @@
 
 @import "{{ site.theme }}";
 
-// Global changes
+// Global
 
-$grey-color-medium:  lighten(#828282, 45%) !default;
+$spacing-unit: 30px !default;
+$grey-color-alt: lighten(#828282, 45%) !default;
 
 .site-footer {
-  background: $grey-color-medium;
+  background: $grey-color-alt;
+}
+
+.spacer {
+  display: block;
+  width: 33%;
+  height: 0;
+  margin: $spacing-unit auto;
+  border-top: 1px solid $grey-color-light;
 }
 
 // Home
 
-.home_container {
+.home .intro {
   display: flex;
   flex-wrap: wrap;
 
   .column {
-    padding: 0 20px;
+    padding: 0 $spacing-unit;
     box-sizing: border-box;
   }
 
   .left {
-    flex: 1 1 40%;
+    flex: 1 1 35%;
   }
 
   .right {
-    flex: 1 1 60%;
+    flex: 1 1 65%;
+  }
+
+  #jap_photo {
+    display: block;
+    width: 300px;
+    margin: 0 auto;
+    border-radius: 50%;
   }
 }
 
-/* Mobile: stack columns */
-@media (max-width: 768px) {
-  .home_container {
+@media (max-width: 800px) {
+  .home .intro {
+    .column {
+      padding: 0;
+    }
     .left,
     .right {
       flex: 1 1 100%;
     }
     .right {
-      margin-top: 20px;
+      margin-top: $spacing-unit;
+    }
+    #jap_photo {
+      width: 200px;
     }
   }
 }
