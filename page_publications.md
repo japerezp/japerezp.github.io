@@ -4,4 +4,4 @@ title: Publications
 permalink: /publications/
 ---
 
-PUBLICATIONS.
+Page under construction. See [DBLP](https://dblp.uni-trier.de/pid/p/JorgeAPerez.html) for a detailed list.
