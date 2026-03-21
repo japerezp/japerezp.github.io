@@ -1,0 +1,45 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+// Global changes
+
+$grey-color-medium:  lighten(#828282, 45%) !default;
+
+.site-footer {
+  background: $grey-color-medium;
+}
+
+// Home
+
+.home_container {
+  display: flex;
+  flex-wrap: wrap;
+
+  .column {
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
+
+  .left {
+    flex: 1 1 40%;
+  }
+
+  .right {
+    flex: 1 1 60%;
+  }
+}
+
+/* Mobile: stack columns */
+@media (max-width: 768px) {
+  .home_container {
+    .left,
+    .right {
+      flex: 1 1 100%;
+    }
+    .right {
+      margin-top: 20px;
+    }
+  }
+}

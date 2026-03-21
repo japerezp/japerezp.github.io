@@ -7,15 +7,17 @@
       <div class="footer-col footer-col-1">
         <ul class="contact-list">
           <li class="p-name">
-            {%- if site.author -%}
-              {{ site.author | escape }}
-            {%- else -%}
-              {{ site.title | escape }}
-            {%- endif -%}
-            </li>
-            {%- if site.email -%}
-            <li>{{ site.email }}</li>
-            {%- endif -%}
+            <strong>
+              {%- if site.author -%}
+                {{ site.author | escape }}
+              {%- else -%}
+                {{ site.title | escape }}
+              {%- endif -%}
+            </strong>
+          </li>
+          {%- if site.email -%}
+          <li>{{ site.email }}</li>
+          {%- endif -%}
         </ul>
       </div>
 
