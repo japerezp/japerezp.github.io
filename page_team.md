@@ -6,6 +6,8 @@ permalink: /team/
 
 I am fortunate to work with (*and learn from*) a fantastic group of young researchers!
 
+---
+
 ### Current PhD students
 
 #### Juan C. Jaramillo ([URL](https://juanjaramillo.nl/), [DBLP](https://dblp.org/pid/162/6010.html))
@@ -15,6 +17,8 @@ I am fortunate to work with (*and learn from*) a fantastic group of young resear
 #### Bianca Fürstenau ([URL](https://www.rug.nl/staff/bianca.furstenau/))
 * Research on coalgebraic and semantic approaches to session types (NWO XL)
 * Expected graduation: August 2029.
+
+---
 
 ### Former PhD Students and Postdocs
 
