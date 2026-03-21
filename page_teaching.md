@@ -4,31 +4,21 @@ title: Teaching
 permalink: /teaching/
 ---
 
-### Courses
+## Courses
 
+I currently teach in the [Bachelor Computing Science](https://ocasys.rug.nl/2025-2026/catalog/programme/56978) and the [Master Computing Science](https://www.rug.nl/masters/computing-science/).
 
-
-#### Languages and Machines (2B)
-[Bachelor Computing Science](https://ocasys.rug.nl/2025-2026/catalog/programme/56978)
-* [Course Website](https://ocasys.rug.nl/current/catalog/course/WBCS027-05)
-* [Schedules](https://rooster.rug.nl/#/en/current/schedule/course-WBCS027-05/timeRange=all)
-
-#### Basic Approaches to the Semantics of Computation (1B)
-[Bachelor Computing Science](https://ocasys.rug.nl/2025-2026/catalog/programme/56978) 
-
-* [Course Website](https://ocasys.rug.nl/current/catalog/course/WBCS061-05) 
-* [Schedules](https://rooster.rug.nl/#/en/current/schedule/course-WBCS061-05/timeRange=all)
-
-#### Models and Semantics of Computation (1A)
-[Master Computing Science](https://www.rug.nl/masters/computing-science/)
-* [Course Website](https://ocasys.rug.nl/current/catalog/course/WMCS026-05)
-* [Schedules](https://rooster.rug.nl/#/en/current/schedule/course-WMCS026-05/timeRange=all)
+| Course              |  |   |
+| :---------------- | :------: | ----: |
+| Languages and Machines (BSc, 2B)        |   [Course Website](https://ocasys.rug.nl/current/catalog/course/WBCS027-05)   | [Schedules](https://rooster.rug.nl/#/en/current/schedule/course-WBCS027-05/timeRange=all) |
+| Models and Semantics of Computation (MSc, 1A)           |   [Course Website](https://ocasys.rug.nl/current/catalog/course/WMCS026-05)   |[Schedules](https://rooster.rug.nl/#/en/current/schedule/course-WMCS026-05/timeRange=all) |
+| Basic Approaches to the Semantics of Computation (BSc, 1B)   |  [Course Website](https://ocasys.rug.nl/current/catalog/course/WBCS061-05)   | [Schedules](https://rooster.rug.nl/#/en/current/schedule/course-WBCS061-05/timeRange=all) |
 
 <div class="spacer"></div>
 
-### Student Projects (BSc and MSc)
+## Supervised Projects (BSc and MSc)
 
-#### General Information (Last updated: March 21, 2026)
+### General Information (Last updated: March 21, 2026)
 Looking for a student project? Did you enjoy BSc courses like *Languages and Machines* and *Basic Approaches to the Semantics of Computation*?  Here I collect information for BSc and MSc students interested in working under my supervision.
 
 * Broadly speaking, I look forward to supervising projects on methods and tools for **program verification**. 
@@ -49,15 +39,15 @@ Looking for a student project? Did you enjoy BSc courses like *Languages and Mac
 
 * Coming up with a good research topic requires some independent study on your side; see pointers to resources below.
 
-#### Suggested Resources
+### Suggested Resources
 
-##### Strongly recommended: Elements of Interaction (Milner)
+#### Strongly recommended: Elements of Interaction (Milner)
 
 I highly recommend **[Robin Milner](https://en.wikipedia.org/wiki/Robin_Milner)**'s Turing lecture, which nicely overviews of the role of process calculi as foundational models of concurrency and interaction:
 
 * Milner: "Elements of Interaction" [[link]](https://dl.acm.org/doi/10.1145/151233.151240)
 
-##### Further pointers 
+#### Further pointers 
 In addition to "Elements of Interaction", you may find the following pointers useful:
 
 * If you are not yet familiar with research papers in Computer Science, you may start from the following short read:
