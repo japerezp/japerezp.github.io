@@ -4,9 +4,10 @@ title: Team
 permalink: /team/
 ---
 
-I am fortunate to work with (*and learn from*) a fantastic group of young researchers!
+I am fortunate to work with (*and learn from*) a fantastic group of young researchers! <br>
 
 ---
+<br>
 
 ### Current PhD students
 
@@ -18,7 +19,7 @@ I am fortunate to work with (*and learn from*) a fantastic group of young resear
 * Research on coalgebraic and semantic approaches to session types (NWO XL)
 * Expected graduation: August 2029.
 
----
+
 
 ### Former PhD Students and Postdocs
 
