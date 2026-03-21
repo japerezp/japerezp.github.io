@@ -5,11 +5,9 @@ permalink: /research/
 ---
 
 ### Research Interests
-* Rigorous programming models with concurrency (in particular, process calculi) and their verification techniques.
-
-* Type systems for concurrency (in particular, session types) and their logical foundations.
-
-* The expressive power of models of concurrency, both typed and untyped.
+* Rigorous programming models with concurrency (in particular, [process calculi](https://en.wikipedia.org/wiki/Process_calculus)) and their verification techniques.
+* [Type systems](http://en.wikipedia.org/wiki/Type_system) for concurrency (in particular, [session types](https://en.wikipedia.org/wiki/Session_type)) and their [logical foundations](https://www.jperez.nl/research/choco).
+* [The expressive power](https://express-sos.github.io/) of models of concurrency, both typed and untyped.
 
 <div class="spacer"></div>
 
