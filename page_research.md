@@ -11,6 +11,8 @@ permalink: /research/
 
 * The expressive power of models of concurrency, both typed and untyped.
 
+<div class="spacer"></div>
+
 ### Projects 
 
 #### Current Projects
@@ -27,6 +29,7 @@ permalink: /research/
 * BETTY Behavioral Types for Reliable Large-Scale Software Systems - EU COST Action IC1201 (2012-2016). Management Committee member
 * INTERFACES CMU-Portugal.
 
+<div class="spacer"></div>
 
 ### Service
 Scientific events (workshops, conferences, research schools) in which I am or have been involved. 
@@ -42,6 +45,7 @@ Scientific events (workshops, conferences, research schools) in which I am or ha
 * D-Con 25: German workshop on Concurrency Theory (Invited Speaker)
 * RADICAL 2025: Recent Advances in Concurrency and Logic (PC co-chair)
 
+<div class="spacer"></div>
 
 ### Organizations
 * ACM SIGLOG 
