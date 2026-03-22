@@ -36,13 +36,13 @@ Scientific events (workshops, conferences, research schools) in which I am or ha
 
 
 #### Past Projects
-* NWO VIDI project "Unifying Correctness for Communicating Software".
+* NWO VIDI project: "Unifying Correctness for Communicating Software" [[link]](https://www.nwo.nl/en/projects/016vidi189046).
 * AVISPA Univ. Javeriana, Colombia.
 * SuCCeSS: Security, Adaptability and time in Communication Centric Software Systems  - CNRS PICS (French partner: Cinzia Di Giusto).
 * RevComp Reversible Computation - Extending Horizons of Computing - EU COST Action IC1405 (2014-2018). Management Committee member.
-* ARVI Runtime Verification Beyond Monitoring - EU COST Action IC1402 (2014-2018). Management Committee member.
-* BETTY Behavioral Types for Reliable Large-Scale Software Systems - EU COST Action IC1201 (2012-2016). Management Committee member
-* INTERFACES CMU-Portugal.
+* ARVI: Runtime Verification Beyond Monitoring - EU COST Action IC1402 (2014-2018). Management Committee member.
+* BETTY: Behavioral Types for Reliable Large-Scale Software Systems - EU COST Action IC1201 (2012-2016). Management Committee member
+* [INTERFACES](https://cmuportugal.org/media/interfaces-certified-interfaces-for-integrity-and-security-in-extensible-web-based-applications/) (CMU-Portugal).
 
 <div class="spacer"></div>
 
@@ -50,5 +50,5 @@ Scientific events (workshops, conferences, research schools) in which I am or ha
 * ACM SIGLOG 
 * ACM SIGPLAN 
 * ETAPS (Member) 
-* VERSEN (Board Member)
 * IFIP
+* VERSEN (Board Member)
