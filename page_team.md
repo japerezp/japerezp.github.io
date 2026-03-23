@@ -10,13 +10,11 @@ I am fortunate to work with (*and learn from*) a fantastic group of young resear
 
 ### Current PhD students
 
-#### Juan C. Jaramillo ([URL](https://juanjaramillo.nl/), [DBLP](https://dblp.org/pid/162/6010.html))
-* Research on linear logic and session-based concurrency.
-* Expected graduation: July 2026.
+* **Juan C. Jaramillo** ([URL](https://juanjaramillo.nl/), [DBLP](https://dblp.org/pid/162/6010.html)).
+    Research on linear logic and session-based concurrency. *Expected graduation*: July 2026.
 
-#### Bianca Fürstenau ([URL](https://www.rug.nl/staff/bianca.furstenau/))
-* Research on coalgebraic and semantic approaches to session types (NWO XL)
-* Expected graduation: August 2029.
+* **Bianca Fürstenau** ([URL](https://www.rug.nl/staff/bianca.furstenau/)).
+    Research on coalgebraic and semantic approaches to session types (NWO XL). *Expected graduation*: August 2029.
 
 <div class="spacer"></div>
 

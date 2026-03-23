@@ -6,13 +6,13 @@ permalink: /teaching/
 
 ## Courses
 
-I currently teach in the [Bachelor Computing Science](https://ocasys.rug.nl/2025-2026/catalog/programme/56978) and the [Master Computing Science](https://www.rug.nl/masters/computing-science/).
+I currently coordinate and teach the following courses in the [Bachelor Computing Science](https://ocasys.rug.nl/2025-2026/catalog/programme/56978) and the [Master Computing Science](https://www.rug.nl/masters/computing-science/).
 
-| Course              |  |   |
-| :---------------- | :------: | ----: |
-| Languages and Machines (BSc, 2B)        |   [Course Website](https://ocasys.rug.nl/current/catalog/course/WBCS027-05)   | [Schedules](https://rooster.rug.nl/#/en/current/schedule/course-WBCS027-05/timeRange=all) |
-| Models and Semantics of Computation (MSc, 1A)           |   [Course Website](https://ocasys.rug.nl/current/catalog/course/WMCS026-05)   |[Schedules](https://rooster.rug.nl/#/en/current/schedule/course-WMCS026-05/timeRange=all) |
-| Basic Approaches to the Semantics of Computation (BSc, 1B)   |  [Course Website](https://ocasys.rug.nl/current/catalog/course/WBCS061-05)   | [Schedules](https://rooster.rug.nl/#/en/current/schedule/course-WBCS061-05/timeRange=all) |
+| Course              |     |
+| :---------------- | :------: | 
+| [Languages and Machines](https://ocasys.rug.nl/current/catalog/course/WBCS027-05) (BSc, 2B)        |    [Schedules](https://rooster.rug.nl/#/en/current/schedule/course-WBCS027-05/timeRange=all) |
+| [Models and Semantics of Computation](https://ocasys.rug.nl/current/catalog/course/WMCS026-05)  (MSc, 1A)             |[Schedules](https://rooster.rug.nl/#/en/current/schedule/course-WMCS026-05/timeRange=all) |
+| [Basic Approaches to the Semantics of Computation](https://ocasys.rug.nl/current/catalog/course/WBCS061-05) (BSc, 1B)   |   [Schedules](https://rooster.rug.nl/#/en/current/schedule/course-WBCS061-05/timeRange=all) |
 
 <div class="spacer"></div>
 
