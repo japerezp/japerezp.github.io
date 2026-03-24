@@ -31,6 +31,7 @@ plugins:
   - jekyll-feed
 
 header_pages:
+  - page_bio.md
   - page_research.md
   - page_team.md
   - page_publications.md
