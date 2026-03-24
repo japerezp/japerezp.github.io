@@ -15,6 +15,7 @@ permalink: /research/
 Scientific events (workshops, conferences, research schools) in which I am or have been involved. 
 
 #### Future and Recent Events
+* [ECI 2026](https://eci.dc.uba.ar/): 39th School of Informatic Sciences, Buenos Aires, Argentina (Invited Lecturer)
 * [ICTAC 2026](https://ictac2026.github.io/): 23rd International Colloquium on Theoretical Aspects of Computing (PC member)
 * [EXPRESS/SOS 2026](https://expresssos.github.io/conf/2026): Combined 33rd International Workshop on Expressiveness in Concurrency and 23rd Workshop on Structural Operational Semantics (PC member)
 * [LSFA 2026](https://lsfa-workshop.github.io/2026/): 21st International Symposium on Logical and Semantic Frameworks, with Applications (PC member)
