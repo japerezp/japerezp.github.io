@@ -25,6 +25,7 @@ I am fortunate to work with (*and learn from*) a fantastic group of young resear
 * **Bas van den Heuvel (2024).** PhD student. Thesis:  *Correctly Communicating Software: Distributed, Asynchronous, and Beyond* [(DOI)](https://doi.org/10.33612/diss.929078700).
     * **Second place, [VERSEN PhD thesis award 2024](https://www.versen.nl/news_items/versen-phd-award-winners/)**.
 
+<!-- -->
 
 * **Alen Arslanagić (2023).** PhD student. Thesis: *Minimal Structures for Program Analysis and Verification* [(DOI)](https://doi.org/10.33612/diss.756640900).
 
@@ -33,7 +34,6 @@ I am fortunate to work with (*and learn from*) a fantastic group of young resear
 * **Mauricio Cano (2020).** PhD student. Thesis: *Session-based concurrency: between operational and declarative views* [(DOI)](https://doi.org/10.33612/diss.108552669).
     * **Third place, [VERSEN PhD thesis award 2020](https://www.versen.nl/news_items/phd-awards-2020-announced/)**.
 
+<!-- -->
 
 * **Dr. Dan Frumin.** Postdoc, NWO VIDI (Oct 2020 - Feb 2023).
-
- 
