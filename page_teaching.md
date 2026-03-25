@@ -53,32 +53,42 @@ In addition to "Elements of Interaction", you may find the following pointers us
 * If you are not yet familiar with research papers in Computer Science, you may start from the following short read:
     * Keshav: "How to Read a Paper" [[link]](http://ccr.sigcomm.org/online/files/p83-keshavA.pdf)
 
+
 * For a general introduction to **programming language semantics**, you can read the following tutorial:
     * Hutton: "Programming Language Semantics - It’s Easy As 1,2,3" [[link]](http://www.cs.nott.ac.uk/~pszgmh/123.pdf)
+
 
 * To learn about about **programming calculi**,  sequential and concurrent, you can start by reading
     * Pierce: "Foundational Calculi for Programming Languages" [[link]](https://web.eecs.umich.edu/~weimerw/590/reading/pierce95foundational.pdf)
 
+
 * To learn about the **pi-calculus**, the paradigmatic calculus of concurrency, you can start with the first two sections of 
     * Parrow: "An Introduction to the pi-calculus" [[link]](https://courses.cs.vt.edu/~cs5204/fall05-kafura/Papers/PICalculus/parrow~2.pdf)
+
 
 * To learn about **linear logic**, the logic of consumable (computational) resources, you can read the following tutorial
     * Wadler: "A Taste of Linear Logic" [[link]](https://homepages.inf.ed.ac.uk/wadler/papers/lineartaste/lineartaste-revised.pdf)
 
+
 * To learn about the pi-calculus equipped with **linear types** (i.e., types based on linear logic), you can read
     * Kobayashi, Pierce, and Turner: "Linearity and the pi-calculus" [[link]](https://dl.acm.org/doi/10.1145/330249.330251)
+
 
 * To learn the basics of **session types** for message-passing programs, have a look at 
     * Vasconcelos: "Sessions, from Types to Programming Languages" [[link]](https://www.di.fc.ul.pt/~vv/papers/vasconcelos_session-types-programming.pdf)
 
+
 * To learn about the Curry-Howard correspondence (aka *propositions as types*) you can read
     * Wadler: "Propositions as Types" [[link]](https://homepages.inf.ed.ac.uk/wadler/topics/history.html#propositions-as-types)
+
 
 * To learn about the Curry-Howard correspondence for concurrency (aka *propositions as sessions*) you can read
     * Caires, Pfenning, and Toninho: "Towards Concurrent Type Theory" [[link]](http://www.cs.cmu.edu/~fp/papers/tldi12.pdf)
 
+
 * To learn about **multiparty session types**, which have multiple practical applications, you can read
     * Yoshida and Gheri: "A Very Gentle Introduction to Multiparty Session Types" [[link]](http://mrg.doc.ic.ac.uk/publications/a-very-gentle-introduction-to-multiparty-session-types/main.pdf)
+
 
 * A starting point for learning about **reversibility in concurrency** is the following paper
     * Lanese, Mezzina, and Tiezzi: "Causal-Consistent Reversibility' [[link]](http://bulletin.eatcs.org/index.php/beatcs/article/view/305)
