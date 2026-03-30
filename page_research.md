@@ -12,7 +12,9 @@ permalink: /research/
 <div class="spacer"></div>
 
 ### Service
-Scientific events (workshops, conferences, research schools) in which I am or have been involved. 
+
+#### International Journals
+* [Information and Computation](https://www.sciencedirect.com/journal/information-and-computation): **Editorial board member** (since 2025).
 
 #### Future and Recent Events
 * [ECI 2026](https://eci.dc.uba.ar/): 39th School of Informatic Sciences, Buenos Aires, Argentina (Invited Lecturer)
