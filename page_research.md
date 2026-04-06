@@ -17,6 +17,7 @@ permalink: /research/
 * [Information and Computation](https://www.sciencedirect.com/journal/information-and-computation): **Editorial board member** (since 2025).
 
 #### Future and Recent Events
+* [LOPSTR+PPDP 2026](https://icfp26.sigplan.org/home/lopstr-ppdp-2026): Joint International Symposium: the 36th Annual Symposium on Logic-Based Program Synthesis and Transformation, and the 28th International Symposium on Principles and Practice of Declarative Programming (PC member).
 * [ECI 2026](https://eci.dc.uba.ar/): 39th School of Informatic Sciences, Buenos Aires, Argentina (Invited Lecturer)
 * [ICTAC 2026](https://ictac2026.github.io/): 23rd International Colloquium on Theoretical Aspects of Computing (PC member)
 * [EXPRESS/SOS 2026](https://expresssos.github.io/conf/2026): Combined 33rd International Workshop on Expressiveness in Concurrency and 23rd Workshop on Structural Operational Semantics (PC member)
