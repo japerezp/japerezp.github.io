@@ -16,9 +16,10 @@ intro: |  # This should be Markdown
   // [ACM DL](http://dl.acm.org/author_page.cfm?id=81339521988)
 details: |  # This should be Markdown
   ## Research Interests
-  - Rigorous programming models with concurrency (in particular, [process calculi](https://en.wikipedia.org/wiki/Process_calculus)) and their verification techniques.
-  - [Type systems](http://en.wikipedia.org/wiki/Type_system) for concurrency (in particular, [session types](https://en.wikipedia.org/wiki/Session_type)) and their logical foundations.
-  - The [expressive power](https://express-sos.github.io/) of models of concurrency, both typed and untyped.
+  I study how to design and verify reliable programs for concurrent and distributed computing, ensuring that complex software behaves as intended, even when many components interact at once.
+  - Formal models for concurrent and distributed systems (especially [process calculi](https://en.wikipedia.org/wiki/Process_calculus)) and rigorous verification techniques to ensure correctness and reliability in complex programs.
+  - Type systems for concurrent programming, with a focus on [session types](https://en.wikipedia.org/wiki/Session_type) and their logical foundations, to enable safe and structured communication in distributed applications.
+  - Exploring the expressive power of concurrent models—both typed and untyped—to understand their capabilities and limitations in modeling real-world systems
 ---
 
 <div class="home intro">
