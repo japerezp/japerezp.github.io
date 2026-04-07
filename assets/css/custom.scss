@@ -6,11 +6,12 @@
 // Global
 
 $spacing-unit: 30px !default;
-$grey-color-alt: lighten(#6a4c4c, 45%) !default;
+$grey-color-alt: lighten(#828282, 45%) !default;
 $mycolor: #6c0404;
+$red-color-alt: lighten($mycolor, 45%) !default;
 
 .site-footer {
-  background: $grey-color-alt;
+  background: $red-color-alt;
 }
 
 .spacer {
@@ -79,4 +80,8 @@ h1, h2, h3, h4, h5 {
 .site-title {
   font-family: 'Playfair Display', serif;
   color: $mycolor;
+}
+
+.site-header {
+  background-color: $red-color-alt; /* pick your color */
 }
