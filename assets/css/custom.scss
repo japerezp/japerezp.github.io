@@ -64,3 +64,13 @@ $grey-color-alt: lighten(#828282, 45%) !default;
     }
   }
 }
+
+body {
+  font-family: 'Inter', sans-serif;
+  color: #222;
+}
+
+h1, h2 {
+  font-family: 'Playfair Display', serif;
+  color: #111;
+}
