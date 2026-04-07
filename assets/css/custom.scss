@@ -8,11 +8,8 @@
 $spacing-unit: 30px !default;
 $grey-color-alt: lighten(#828282, 45%) !default;
 $mycolor: #6c0404;
-$red-color-alt: lighten($mycolor, 45%) !default;
+$red-color-alt: lighten($mycolor, 65%) !default;
 
-.site-footer {
-  background: $red-color-alt;
-}
 
 .spacer {
   display: block;
@@ -83,5 +80,9 @@ h1, h2, h3, h4, h5 {
 }
 
 .site-header {
-  background-color: $red-color-alt; /* pick your color */
+  background-color: $grey-color-alt; 
+}
+
+.site-footer {
+  background: $red-color-alt;
 }
