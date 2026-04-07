@@ -17,9 +17,9 @@ intro: |  # This should be Markdown
 details: |  # This should be Markdown
   ## Research Interests
   I study how to design and verify reliable programs for concurrent and distributed computing, ensuring that complex software systems behave as intended, even when many components interact at once.
-  - **Formal models for concurrent and distributed systems** (especially [process calculi](https://en.wikipedia.org/wiki/Process_calculus)) and rigorous verification techniques to ensure correctness and reliability in complex programs.
-  - **Type systems for concurrent programming**, with a focus on [session types](https://en.wikipedia.org/wiki/Session_type) and their logical foundations, to enable safe and structured communication in distributed applications.
-  - Exploring the **expressive power of concurrent models** (with and without types) to understand their capabilities and limitations in modeling real-world systems.
+  - **Formal models for concurrent and distributed systems** (especially [process calculi](https://en.wikipedia.org/wiki/Process_calculus)) and rigorous verification techniques.
+  - **Type systems for concurrent programming**, with a focus on [session types](https://en.wikipedia.org/wiki/Session_type) and their logical foundations.
+  - Exploring the **expressive power of concurrent models** (with and without types) to understand their strenghts and limitations in modeling real-world systems.
 ---
 
 <div class="home intro">
