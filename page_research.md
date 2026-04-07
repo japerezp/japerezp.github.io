@@ -5,9 +5,9 @@ permalink: /research/
 ---
 
 ### Research Interests
-* Rigorous programming models with concurrency (in particular, [process calculi](https://en.wikipedia.org/wiki/Process_calculus)) and their associated verification techniques.
-* [Type systems](http://en.wikipedia.org/wiki/Type_system) for concurrency (in particular, [session types](https://en.wikipedia.org/wiki/Session_type)) and their logical foundations.
-* The [expressive power](https://express-sos.github.io/) of models of concurrency, both typed and untyped.
+*   Formal models for concurrent and distributed systems (especially [process calculi](https://en.wikipedia.org/wiki/Process_calculus)) and rigorous verification techniques to ensure correctness and reliability in complex programs.
+* Type systems for concurrent programming, with a focus on [session types](https://en.wikipedia.org/wiki/Session_type) and their logical foundations, to enable safe and structured communication in distributed applications.
+* Exploring the expressive power of concurrent models (with and without types) to understand their capabilities and limitations in modeling real-world systems.
 
 <div class="spacer"></div>
 
