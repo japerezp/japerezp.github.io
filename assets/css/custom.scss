@@ -83,6 +83,10 @@ h1, h2, h3, h4, h5 {
   background-color: $grey-color-alt; 
 }
 
+.site-header a {
+  color:$mycolor;
+}
+
 .site-footer {
   background: $grey-color-alt;
   color: #ffffff;
