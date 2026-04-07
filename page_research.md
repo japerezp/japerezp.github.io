@@ -37,6 +37,7 @@ permalink: /research/
 
 #### Current Projects
 * [Cyclic Structures in Programs and Proofs](https://cyclic-structures.gitlab.io/) (NWO). Project [OCENW.XL.23.089 (Open Competition Domain Science XL, round 2023-2024)](https://doi.org/10.61686/FHYZO53064). **Lead PI**.
+* [E-CoRe: Energy-efficient Computing via Reversibility](https://e-core.nws.cs.unibo.it/): Marie Skłodowska-Curie Action ([Associate Partner](https://cordis.europa.eu/project/id/101226672))
 * Concurrency in Reversible Computations (NSF grant to  Clément Aubert, external collaborator)
 
 
