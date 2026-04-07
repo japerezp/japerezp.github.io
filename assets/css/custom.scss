@@ -6,7 +6,7 @@
 // Global
 
 $spacing-unit: 30px !default;
-$grey-color-alt: lighten(#828282, 45%) !default;
+$grey-color-alt: lighten(#a47b7b, 45%) !default;
 
 .site-footer {
   background: $grey-color-alt;
@@ -70,7 +70,7 @@ body {
   color: #222;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4, h5 {
   font-family: 'Playfair Display', serif;
   color: #6c0404;
 }
