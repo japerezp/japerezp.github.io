@@ -9,7 +9,7 @@ $spacing-unit: 30px !default;
 $grey-color-alt: lighten(#828282, 45%) !default;
 $mycolor: #6c0404;
 $red-color-alt: lighten($mycolor, 65%) !default;
-
+$blue-color: #2073f8;
 
 .spacer {
   display: block;
@@ -76,7 +76,7 @@ h1, h2, h3, h4, h5 {
 
 .site-title {
   font-family: 'Playfair Display', serif;
-  color: $mycolor;
+  color: $blue-color;
 }
 
 .site-header {
@@ -84,5 +84,5 @@ h1, h2, h3, h4, h5 {
 }
 
 .site-footer {
-  background: $red-color-alt;
+  background: $blue-color;
 }
