@@ -16,10 +16,10 @@ intro: |  # This should be Markdown
   // [ACM DL](http://dl.acm.org/author_page.cfm?id=81339521988)
 details: |  # This should be Markdown
   ## Research Interests
-  I study how to design and verify reliable programs for concurrent and distributed computing, ensuring that complex software systems behave as intended, even when many components interact at once.
-  - **Formal models for concurrent and distributed systems** (especially [process calculi](https://en.wikipedia.org/wiki/Process_calculus)) and rigorous verification techniques.
+  I study how to design, analyze, and verify reliable programs for concurrent and distributed programming. A key challenge is ensuring that complex software systems behave as intended, even when many components interact at once.
+  - **Formal models for concurrent and distributed systems** (especially [process calculi](https://en.wikipedia.org/wiki/Process_calculus)) and their rigorous verification techniques.
   - **Type systems for concurrent programming**, with a focus on [session types](https://en.wikipedia.org/wiki/Session_type) and their **logical foundations**.
-  - Exploring the **expressive power of concurrent models** (with and without types) to understand their strenghts and limitations in modeling real-world systems.
+  - Exploring the **expressive power of concurrent models** to understand their strenghts and limitations in modeling real-world programs and systems.
 ---
 
 <div class="home intro">
