@@ -86,12 +86,27 @@ font-family: 'Georgia', serif;
 }
 
 
-.site-header,
-.site-title,
-.site-nav,
+.site-header {
+  font-family: Georgia, serif;
+  background-color: #ffffff;
+  border-bottom: 1px solid #e5e5e5;
+  color: $mycolor;
+}
+
+/* Site title */
+.site-title {
+  font-family: Georgia, serif;
+  font-weight: bold;
+  letter-spacing: 0.3px;
+  color: $mycolor;
+}
+
+/* Navigation links */
 .site-nav a {
-  font-family: 'Georgia', serif; 
-  color:$mycolor;
+  font-family: Georgia, serif;
+  font-weight: normal;
+  letter-spacing: 0.2px;
+  color: $mycolor;
 }
 
 
