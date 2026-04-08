@@ -85,9 +85,15 @@ font-family: 'Georgia', serif;
   background-color: $grey-color-alt; 
 }
 
-.site-header a {
+
+.site-header,
+.site-title,
+.site-nav,
+.site-nav a {
+  font-family: 'Georgia', serif; 
   color:$mycolor;
 }
+
 
 .site-footer {
   background: $grey-color-alt;
