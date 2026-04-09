@@ -1,16 +1,49 @@
 ---
 ---
-
 @import "{{ site.theme }}";
 
-// Global
+// ============================
+// Variables
+// ============================
 
 $spacing-unit: 30px !default;
-$grey-color-alt: lighten(#828282, 45%) !default;
+
 $mycolor: #6c0404;
-$mycolor-alt:  #fce3e3;
-//$mycolor-alt: lighten($mycolor, 65%) !default;
+$mycolor-alt: #fce3e3;
+
 $blue-color: #2073f8;
+
+$grey-color-alt: lighten(#828282, 45%) !default;
+
+// ============================
+// Base styles
+// ============================
+
+body {
+  font-family: 'Inter', sans-serif;
+  color: #222;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+.site-title,
+.site-header,
+.site-nav,
+.site-nav a {
+  font-family: 'Georgia', serif;
+  color: $mycolor;
+}
+
+// ============================
+// Layout helpers
+// ============================
+
+.wrapper {
+  max-width: 900px; // default ~800px
+}
 
 .spacer {
   display: block;
@@ -20,86 +53,73 @@ $blue-color: #2073f8;
   border-top: 1px solid $grey-color-light;
 }
 
-// Home
-
-.home .intro {
-  display: flex;
-  flex-wrap: wrap;
-
-  .column {
-    padding: 0 $spacing-unit;
-    box-sizing: border-box;
-  }
-
-  .left {
-    flex: 1 1 35%;
-  }
-
-  .right {
-    flex: 1 1 65%;
-  }
-
-  #jap_photo {
-    display: block;
-    width: 300px;
-    margin: 0 auto;
-    border-radius: 50%;
-  }
-}
-
-@media (max-width: 800px) {
-  .home .intro {
-    .column {
-      padding: 0;
-    }
-    .left,
-    .right {
-      flex: 1 1 100%;
-    }
-    .right {
-      margin-top: $spacing-unit;
-    }
-    #jap_photo {
-      width: 200px;
-    }
-  }
-}
-
-body {
-  font-family: 'Inter', sans-serif;
-  color: #222;
-}
-
-h1, h2, h3, h4, h5 {
-  font-family: 'Georgia', serif;
-  color: $mycolor;
-}
-
-.site-title {
- // font-family: 'Playfair Display', serif;
-font-family: 'Georgia', serif; 
- color: $mycolor;
-}
+// ============================
+// Header & Footer
+// ============================
 
 .site-header {
-  background-color: $grey-color-alt; 
+  background-color: $grey-color-alt;
 }
-
-
-.site-header,
-.site-title,
-.site-nav,
-.site-nav a {
-  font-family: 'Georgia', serif; 
-  color:$mycolor;
-}
-
 
 .site-footer {
   background: $grey-color-alt;
   color: #ffffff;
 }
 
-.wrapper {
-  max-width: 900px; /* default is ~800px */
+// ============================
+// Home page
+// ============================
+
+.home {
+  .intro {
+    display: flex;
+    flex-wrap: wrap;
+
+    .column {
+      padding: 0 $spacing-unit;
+      box-sizing: border-box;
+    }
+
+    .left {
+      flex: 1 1 35%;
+    }
+
+    .right {
+      flex: 1 1 65%;
+    }
+
+    #jap_photo {
+      display: block;
+      width: 300px;
+      margin: 0 auto;
+      border-radius: 50%;
+    }
+  }
+}
+
+// ============================
+// Responsive
+// ============================
+
+@media (max-width: 800px) {
+  .home {
+    .intro {
+      .column {
+        padding: 0;
+      }
+
+      .left,
+      .right {
+        flex: 1 1 100%;
+      }
+
+      .right {
+        margin-top: $spacing-unit;
+      }
+
+      #jap_photo {
+        width: 200px;
+      }
+    }
+  }
 }
