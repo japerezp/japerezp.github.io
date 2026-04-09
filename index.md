@@ -3,13 +3,13 @@ layout: home
 intro: |  # This should be Markdown
   Professor, **[University of Groningen](http://www.rug.nl/), The Netherlands**.
 
-  Leader, [Fundamental Computing group](https://www.rug.nl/fse/fc).
+  Leader, **[Fundamental Computing group](https://www.rug.nl/fse/fc)**.
 
-  Member of the board / Head of department Computer Science, **[Bernoulli Institute](http://www.rug.nl/research/bernoulli)**.
+  Board member / Head of department Computer Science, **[Bernoulli Institute](http://www.rug.nl/research/bernoulli)**.
 
   Lead PI, **[Cyclic Structures in Programs and Proofs](https://cyclic-structures.gitlab.io/)** (2025-2030).
 
-  Editorial board member, [Information and Computation](https://www.sciencedirect.com/journal/information-and-computation).
+  Editorial board member, [**Information and Computation**](https://www.sciencedirect.com/journal/information-and-computation).
 
   **[My CV](http://japerezp.github.io/files/PerezCV.pdf)** 
   // [DBLP](https://dblp.uni-trier.de/pid/p/JorgeAPerez.html) 
