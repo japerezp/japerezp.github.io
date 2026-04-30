@@ -63,7 +63,7 @@ In addition to "Elements of Interaction", you may find the following pointers us
 
 
 * To learn about the **pi-calculus**, the paradigmatic calculus of concurrency, you can start with the first two sections of 
-    * Parrow: "An Introduction to the pi-calculus" [[link]](https://courses.cs.vt.edu/~cs5204/fall05-kafura/Papers/PICalculus/parrow~2.pdf)
+    * Parrow: "An Introduction to the pi-calculus" [[link]](http://didattica.cs.unicam.it/old/lib/exe/fetch.php?media=didattica:magistrale:dsfl:ay_1718:parrow--an_introduction_to_the_pi-calculus.pdf)
 
 
 * To learn about **linear logic**, the logic of consumable (computational) resources, you can read the following tutorial
