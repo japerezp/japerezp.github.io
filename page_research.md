@@ -17,7 +17,7 @@ permalink: /research/
 * [Information and Computation](https://www.sciencedirect.com/journal/information-and-computation): **Editorial board member** (since 2025).
 
 #### Future and Recent Events
-* [Workshop on Reliable Software by Construction](ht:tps://www.lorentzcenter.nl/reliable-software-by-construction.html): Lorentz Center workshop, October 2026 (Organizer)
+* [Reliable Software by Construction](https://www.lorentzcenter.nl/reliable-software-by-construction.html): Lorentz Center workshop, October 2026 (Co-organizer)
 * [RADICAL 2026](https://sites.google.com/site/radicalconcur): Fifth International Workshop on
 Recent Advances in Concurrency and Logic (PC member)
 * [LOPSTR+PPDP 2026](https://icfp26.sigplan.org/home/lopstr-ppdp-2026): Joint International Symposium: the 36th Annual Symposium on Logic-Based Program Synthesis and Transformation, and the 28th International Symposium on Principles and Practice of Declarative Programming (PC member).
