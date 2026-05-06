@@ -18,6 +18,7 @@ permalink: /research/
 
 #### Future and Recent Events
 * [Reliable Software by Construction](https://www.lorentzcenter.nl/reliable-software-by-construction.html): Lorentz Center workshop, October 2026 (Co-organizer)
+* [VeriLang 2026](https://2026.ecoop.org/track/verilang-2026-verilang-2026): First Workshop on Verification Languages, co-located with ECOOP'26 (Keynote Speaker)
 * [RADICAL 2026](https://sites.google.com/site/radicalconcur): Fifth International Workshop on
 Recent Advances in Concurrency and Logic (PC member)
 * [LOPSTR+PPDP 2026](https://icfp26.sigplan.org/home/lopstr-ppdp-2026): Joint International Symposium: the 36th Annual Symposium on Logic-Based Program Synthesis and Transformation, and the 28th International Symposium on Principles and Practice of Declarative Programming (PC member).
