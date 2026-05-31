@@ -16,7 +16,7 @@ permalink: /research/
 #### International Journals
 * [Information and Computation](https://www.sciencedirect.com/journal/information-and-computation): **Editorial board member** (since 2025).
 
-#### Future and Recent Events
+#### Recent and Future Events
 * [FSCD 2027](https://fscd-conference.org/): 12th International Conference on Formal Structures for Computation and Deduction (PC member)
 * [ECOOP 2027](https://2026.ecoop.org/): 41st European Conference on Object-Oriented Programming (PC member)
 * [Reliable Software by Construction](https://www.lorentzcenter.nl/reliable-software-by-construction.html): Lorentz Center workshop, October 2026 (Co-organizer)
@@ -31,6 +31,7 @@ Recent Advances in Concurrency and Logic (PC member)
 * [LSFA 2026](https://lsfa-workshop.github.io/2026/): 21st International Symposium on Logical and Semantic Frameworks, with Applications (PC member)
 * [CMCS 2026](https://www.coalg.org/cmcs26/): 18th International Workshop on Coalgebraic Methods in Computer Science (PC member)
 * ESOP 2026: 35th European Symposium on Programming (PC member)
+#### Past Events
 * ICTAC 2025: 22nd International Colloquium on Theoretical Aspects of Computing (PC member) 
 * CAV 2025: 37th International Conference on Computer Aided Verification  (PC member) 
 * FORTE 2025:  45th IFIP WG 6.1 International Conference on Formal Techniques for Distributed Objects, Components, and Systems (PC member)
