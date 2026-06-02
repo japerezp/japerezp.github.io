@@ -31,7 +31,9 @@ Recent Advances in Concurrency and Logic (PC member)
 * [LSFA 2026](https://lsfa-workshop.github.io/2026/): 21st International Symposium on Logical and Semantic Frameworks, with Applications (PC member)
 * [CMCS 2026](https://www.coalg.org/cmcs26/): 18th International Workshop on Coalgebraic Methods in Computer Science (PC member)
 * ESOP 2026: 35th European Symposium on Programming (PC member)
+
 #### Past Events
+
 * ICTAC 2025: 22nd International Colloquium on Theoretical Aspects of Computing (PC member) 
 * CAV 2025: 37th International Conference on Computer Aided Verification  (PC member) 
 * FORTE 2025:  45th IFIP WG 6.1 International Conference on Formal Techniques for Distributed Objects, Components, and Systems (PC member)
