@@ -5,7 +5,7 @@ intro: |  # This should be Markdown
 
   Leader, **[Fundamental Computing group](https://www.rug.nl/fse/fc)**.
 
-  Board member / Head of department Computer Science, **[Bernoulli Institute](http://www.rug.nl/research/bernoulli)**.
+  Board member / chair of the board, **[Bernoulli Institute](http://www.rug.nl/research/bernoulli)**.
 
   Lead PI, **[Cyclic Structures in Programs and Proofs](https://cyclic-structures.gitlab.io/)** (2025-2030).
 
