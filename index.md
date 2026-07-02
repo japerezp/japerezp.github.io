@@ -1,7 +1,7 @@
 ---
 layout: home
 intro: |  # This should be Markdown
-  Professor, **[University of Groningen](http://www.rug.nl/), The Netherlands**.
+  Professor, **[University of Groningen](http://www.rug.nl/)**, the Netherlands.
 
   Leader, **[Fundamental Computing group](https://www.rug.nl/fse/fc)**.
 
@@ -11,7 +11,7 @@ intro: |  # This should be Markdown
 
   Editorial board member, [**Information and Computation**](https://www.sciencedirect.com/journal/information-and-computation).
 
-  Chair, [**IFIP Working Group 6.1**: Architectures and Protocols for Distributed Systems](https://tc6.ifip.org/wg-6-1-architectures-and-protocols-for-distributed-systems/)
+  Chair, [**IFIP Working Group 6.1**: Architectures and Protocols for Distributed Systems](https://tc6.ifip.org/wg-6-1-architectures-and-protocols-for-distributed-systems/).
 
   **[My CV](http://japerezp.github.io/files/PerezCV.pdf)** 
   // [DBLP](https://dblp.uni-trier.de/pid/p/JorgeAPerez.html) 
