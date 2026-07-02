@@ -7,7 +7,7 @@ intro: |  # This should be Markdown
 
   Board member / chair of the board, **[Bernoulli Institute](http://www.rug.nl/research/bernoulli)**.
 
-  Lead PI, **[Cyclic Structures in Programs and Proofs](https://cyclic-structures.gitlab.io/)** (2025-2030).
+  Lead PI, **[Cyclic Structures in Programs and Proofs](https://cyclic-structures.nl/)** (2025-2030).
 
   Editorial board member, [**Information and Computation**](https://www.sciencedirect.com/journal/information-and-computation).
 
