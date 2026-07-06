@@ -16,9 +16,13 @@ permalink: /research/
 #### International Journals
 * [Information and Computation](https://www.sciencedirect.com/journal/information-and-computation): **Editorial board member** (since 2025).
 
+#### International Conferences and Workshops
+* [IFIP WG 6.1 International Conference on Formal Techniques for Distributed Objects, Components, and Systems (FORTE)](https://www.discotec.org/forte/) Steering committee chair
+* [Combined International Workshop on Expressiveness in Concurrency and on Structural Operational Semantics (EXPRESS/SOS)](https://expresssos.github.io/) Steering committee member
+
 #### Recent and Future Events
 * [FSCD 2027](https://fscd-conference.org/): 12th International Conference on Formal Structures for Computation and Deduction (PC member)
-* [ECOOP 2027](https://2026.ecoop.org/): 41st European Conference on Object-Oriented Programming (PC member)
+* [ECOOP 2027](https://2027.ecoop.org/): 41st European Conference on Object-Oriented Programming (PC member)
 * [Reliable Software by Construction](https://www.lorentzcenter.nl/reliable-software-by-construction.html): Lorentz Center workshop, October 2026 (Co-organizer)
 * [VeriLang 2026](https://2026.ecoop.org/track/verilang-2026-verilang-2026): First Workshop on Verification Languages, co-located with ECOOP'26 (Keynote Speaker)
 * [RADICAL 2026](https://sites.google.com/site/radicalconcur): Fifth International Workshop on
