@@ -8,6 +8,7 @@ Latest publications. See [DBLP](https://dblp.uni-trier.de/pid/p/JorgeAPerez.html
 
 | |  | | 
 | :---------------- | :------ | :------ | 
+| **EXPRESS/SOS 2026** | *On the Expressiveness of Asynchronous Processes with Nested Session Types* (Wortelboer, Frumin, Pérez) | doi / arxiv | 
 | **FORTE 2026** | *Deadlock-free Context-free Session Types* (Mordido, Pérez) | [doi](https://doi.org/10.1007/978-3-032-28187-6_11) / [arxiv](https://doi.org/10.48550/arXiv.2506.20356) | 
 | **ECOOP 2025** | *Contrasting Deadlock-Free Session Processes* (Jaramillo, Pérez) | [doi](https://doi.org/10.4230/LIPIcs.ECOOP.2025.17) | 
 | **Logical and Algebraic Methods in Programming** | *Comparing session type systems derived from linear logic* (Van den Heuvel, Pérez)  | [doi](https://doi.org/10.1016/j.jlamp.2024.101004) |
