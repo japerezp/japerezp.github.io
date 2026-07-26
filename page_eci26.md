@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "New Course"
-permalink: /teaching/newcourse/
+title: "ECI 2026"
+permalink: /teaching/eci26/
 ---
 
 # ECI 2026
