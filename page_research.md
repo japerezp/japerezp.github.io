@@ -28,7 +28,7 @@ permalink: /research/
 * [RADICAL 2026](https://sites.google.com/site/radicalconcur): Fifth International Workshop on
 Recent Advances in Concurrency and Logic (PC member)
 * [LOPSTR+PPDP 2026](https://icfp26.sigplan.org/home/lopstr-ppdp-2026): Joint International Symposium: the 36th Annual Symposium on Logic-Based Program Synthesis and Transformation, and the 28th International Symposium on Principles and Practice of Declarative Programming (PC member).
-* [ECI 2026](https://eci.dc.uba.ar/): 39th School of Informatic Sciences, Buenos Aires, Argentina (Invited Lecturer)
+* [ECI 2026](https://eci.dc.uba.ar/): 39th School of Informatic Sciences, Buenos Aires, Argentina (Invited Lecturer). See the [course page](https://jperez.nl/teaching/eci26/).
 * [ICT OPEN 2026](https://ictopen.nl/track-formal-methods-0), Formal Methods track (Invited Speaker)
 * [ICTAC 2026](https://ictac2026.github.io/): 23rd International Colloquium on Theoretical Aspects of Computing (PC member)
 * [EXPRESS/SOS 2026](https://expresssos.github.io/conf/2026): Combined 33rd International Workshop on Expressiveness in Concurrency and 23rd Workshop on Structural Operational Semantics (PC member)
