@@ -18,11 +18,11 @@ Course given at the
 
 ## Recommended readings
 
-### Monday 
+### Monday: 
  * Wadler: "A Taste of Linear Logic" [[link]](https://homepages.inf.ed.ac.uk/wadler/papers/lineartaste/lineartaste-revised.pdf)
  * Wadler: "Propositions as Types" [[link]](https://homepages.inf.ed.ac.uk/wadler/topics/history.html#propositions-as-types)
 
- ### Tuesday 
+### Tuesday:
   * Caires, Pfenning, and Toninho: "Towards Concurrent Type Theory" [[link]](https://www.cs.cmu.edu/~fp/papers/tldi12.pdf)
  * Caires, Pfenning, and Toninho: "Linear Logic Propositions as Session Types" [[link]](https://web.tecnico.ulisboa.pt/bernardo.toninho/papers/mscs16-sess.pdf)
 
