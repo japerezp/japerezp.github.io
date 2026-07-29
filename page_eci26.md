@@ -26,7 +26,7 @@ Course given at the
   * Caires, Pfenning, and Toninho: "Towards Concurrent Type Theory" [[link]](https://www.cs.cmu.edu/~fp/papers/tldi12.pdf)
  * Caires, Pfenning, and Toninho: "Linear Logic Propositions as Session Types" [[link]](https://web.tecnico.ulisboa.pt/bernardo.toninho/papers/mscs16-sess.pdf)
 
- ### Wednesday
+### Wednesday
   * Wadler: "Propositions as Sessions" [[link]](https://homepages.inf.ed.ac.uk/wadler/papers/propositions-as-sessions/propositions-as-sessions-jfp.pdf)
   * Van den Heuvel and Pérez: "A Gentle Overview of Asynchronous Session-based
 Concurrency: Deadlock Freedom by Typing" [[link]](https://arxiv.org/pdf/2412.08232v1)
