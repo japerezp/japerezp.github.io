@@ -12,19 +12,24 @@ Course given at the
 ## Slides
 * **Monday**: Introduction to Processes, Session Types, and Intuitionistic Linear Logic [[pdf](https://jperez.nl/files/eci/ECI26-part1.pdf)]
 * **Tuesday**: Process Semantics, Propositions as Sessions: Statics and Dynamics [[pdf](https://jperez.nl/files/eci/ECI26-part2.pdf)]
-* **Wednesday** [pdf]
+* **Wednesday**: Propositions as Sessions based on CLL,  Three Languages with Asynchronous Communication [[pdf](https://jperez.nl/files/eci/ECI26-part3.pdf)]
 * **Thursday** [pdf]
 * **Friday** [pdf]
 
 ## Recommended readings
 
-### Monday: 
+### Monday
  * Wadler: "A Taste of Linear Logic" [[link]](https://homepages.inf.ed.ac.uk/wadler/papers/lineartaste/lineartaste-revised.pdf)
  * Wadler: "Propositions as Types" [[link]](https://homepages.inf.ed.ac.uk/wadler/topics/history.html#propositions-as-types)
 
-### Tuesday:
+### Tuesday
   * Caires, Pfenning, and Toninho: "Towards Concurrent Type Theory" [[link]](https://www.cs.cmu.edu/~fp/papers/tldi12.pdf)
  * Caires, Pfenning, and Toninho: "Linear Logic Propositions as Session Types" [[link]](https://web.tecnico.ulisboa.pt/bernardo.toninho/papers/mscs16-sess.pdf)
+
+ ### Wednesday
+  * Wadler: "Propositions as Sessions" [[link]](https://homepages.inf.ed.ac.uk/wadler/papers/propositions-as-sessions/propositions-as-sessions-jfp.pdf)
+  * Van den Heuvel and Pérez: "A Gentle Overview of Asynchronous Session-based
+Concurrency: Deadlock Freedom by Typing" [[link]](https://arxiv.org/pdf/2412.08232v1)
 
 
 
