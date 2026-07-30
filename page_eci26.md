@@ -9,18 +9,26 @@ permalink: /teaching/eci26/
 Course given at the 
 [ECI 2026](https://eci.dc.uba.ar/), the 39th School of Informatic Sciences, Buenos Aires, Argentina (July 27 - 31, 2026).
 
+(last updated: Thu, July 30)
+
 ## Slides
-* **Monday**: Introduction to Processes, Session Types, and Intuitionistic Linear Logic [[pdf](https://jperez.nl/files/eci/ECI26-part1.pdf)]
+* **Monday**: Introduction to Concurrent Processes, Session Types, and Intuitionistic Linear Logic [[pdf](https://jperez.nl/files/eci/ECI26-part1.pdf)]
 * **Tuesday**: Process Semantics, Propositions as Sessions: Statics and Dynamics [[pdf](https://jperez.nl/files/eci/ECI26-part2.pdf)]
 * **Wednesday**: Propositions as Sessions based on CLL,  Three Languages with Asynchronous Communication [[pdf](https://jperez.nl/files/eci/ECI26-part3.pdf)]
-* **Thursday** [pdf]
+* **Thursday**: [[pdf](https://jperez.nl/files/eci/ECI26-part4.pdf)]
 * **Friday** [pdf]
 
 ## Recommended readings
 
+*If there is only one thing you can read*, 
+I highly recommend **[Robin Milner](https://en.wikipedia.org/wiki/Robin_Milner)**'s Turing lecture, which nicely overviews of the role of process calculi as foundational models of concurrency and interaction:
+
+* Milner: "Elements of Interaction" [[link]](https://dl.acm.org/doi/10.1145/151233.151240)
+
 ### Monday
  * Wadler: "A Taste of Linear Logic" [[link]](https://homepages.inf.ed.ac.uk/wadler/papers/lineartaste/lineartaste-revised.pdf)
  * Wadler: "Propositions as Types" [[link]](https://homepages.inf.ed.ac.uk/wadler/topics/history.html#propositions-as-types)
+ * Parrow: "An Introduction to the pi-calculus" [[link]](http://didattica.cs.unicam.it/old/lib/exe/fetch.php?media=didattica:magistrale:dsfl:ay_1718:parrow--an_introduction_to_the_pi-calculus.pdf)
 
 ### Tuesday
   * Caires, Pfenning, and Toninho: "Towards Concurrent Type Theory" [[link]](https://www.cs.cmu.edu/~fp/papers/tldi12.pdf)
@@ -31,6 +39,9 @@ Course given at the
   * Van den Heuvel and Pérez: "A Gentle Overview of Asynchronous Session-based
 Concurrency: Deadlock Freedom by Typing" [[link]](https://arxiv.org/pdf/2412.08232v1)
 
+### Thursday 
+
+### Friday 
 
 
 
