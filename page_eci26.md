@@ -15,7 +15,7 @@ Course given at the
 * **Monday**: Introduction to Concurrent Processes, Session Types, and Intuitionistic Linear Logic [[pdf](https://jperez.nl/files/eci/ECI26-part1.pdf)]
 * **Tuesday**: Process Semantics, Propositions as Sessions: Statics and Dynamics [[pdf](https://jperez.nl/files/eci/ECI26-part2.pdf)]
 * **Wednesday**: Propositions as Sessions based on CLL,  Three Languages with Asynchronous Communication [[pdf](https://jperez.nl/files/eci/ECI26-part3.pdf)]
-* **Thursday**: [[pdf](https://jperez.nl/files/eci/ECI26-part4.pdf)]
+* **Thursday**: Client-server behaviors using the !-modality [[pdf](https://jperez.nl/files/eci/ECI26-part4.pdf)]
 * **Friday** [pdf]
 
 ## Recommended readings
@@ -39,9 +39,6 @@ I highly recommend **[Robin Milner](https://en.wikipedia.org/wiki/Robin_Milner)*
   * Van den Heuvel and Pérez: "A Gentle Overview of Asynchronous Session-based
 Concurrency: Deadlock Freedom by Typing" [[link]](https://arxiv.org/pdf/2412.08232v1)
 
-### Thursday 
-
-### Friday 
 
 
 
