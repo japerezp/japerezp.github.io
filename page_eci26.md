@@ -39,6 +39,10 @@ I highly recommend **[Robin Milner](https://en.wikipedia.org/wiki/Robin_Milner)*
   * Van den Heuvel and Pérez: "A Gentle Overview of Asynchronous Session-based
 Concurrency: Deadlock Freedom by Typing" [[link]](https://arxiv.org/pdf/2412.08232v1)
 
+### Thursday / Friday:
+* Frumin et al.: "A bunch of sessions: a propositions-as-sessions interpretation of bunched implications in channel-based concurrency" [[link](https://doi.org/10.1145/3563318)]
+
+
 
 
 
