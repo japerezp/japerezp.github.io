@@ -11,9 +11,10 @@ Course given at the
 
 (last updated: **Fri, July 31**)
 
-
+<!--
 ## Link to the quiz
 [https://forms.gle/C3x9t1BDUrmTGRMC9](https://forms.gle/C3x9t1BDUrmTGRMC9)
+-->
 
 ## Slides
 * **Monday**: Introduction to Concurrent Processes, Session Types, and Intuitionistic Linear Logic [[pdf](https://jperez.nl/files/eci/ECI26-part1.pdf)]
