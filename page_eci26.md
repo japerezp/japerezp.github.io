@@ -9,14 +9,14 @@ permalink: /teaching/eci26/
 Course given at the 
 [ECI 2026](https://eci.dc.uba.ar/), the 39th School of Informatic Sciences, Buenos Aires, Argentina (July 27 - 31, 2026).
 
-(last updated: Thu, July 30)
+(last updated: **Fri, July 31**)
 
 ## Slides
 * **Monday**: Introduction to Concurrent Processes, Session Types, and Intuitionistic Linear Logic [[pdf](https://jperez.nl/files/eci/ECI26-part1.pdf)]
 * **Tuesday**: Process Semantics, Propositions as Sessions: Statics and Dynamics [[pdf](https://jperez.nl/files/eci/ECI26-part2.pdf)]
 * **Wednesday**: Propositions as Sessions based on CLL,  Three Languages with Asynchronous Communication [[pdf](https://jperez.nl/files/eci/ECI26-part3.pdf)]
 * **Thursday**: Client-server behaviors using the !-modality [[pdf](https://jperez.nl/files/eci/ECI26-part4.pdf)]
-* **Friday** [pdf]
+* **Friday**: Non-determinism and Failures in Session Types [[pdf](https://jperez.nl/files/eci/ECI26-part5.pdf)]
 
 ## Recommended readings
 
@@ -39,8 +39,17 @@ I highly recommend **[Robin Milner](https://en.wikipedia.org/wiki/Robin_Milner)*
   * Van den Heuvel and Pérez: "A Gentle Overview of Asynchronous Session-based
 Concurrency: Deadlock Freedom by Typing" [[link]](https://arxiv.org/pdf/2412.08232v1)
 
-### Thursday / Friday:
-* Frumin et al.: "A bunch of sessions: a propositions-as-sessions interpretation of bunched implications in channel-based concurrency" [[link](https://doi.org/10.1145/3563318)]
+
+### Friday:
+* Pérez and Caires: "Linearity, Control Effects, and Behavioural Types." [[link]](https://doi.org/10.1007/978-3-662-54434-1_9)
+* Caires and Rocha: The CLASS programming language [[link]](https://luiscaires.org/software/)
+* Vasconcelos et al: The FreeST programming language [[link]](https://freest-lang.github.io/)
+
+### Relevant but Not Covered 
+* Frumin et al.: "A bunch of sessions: a propositions-as-sessions interpretation of bunched implications in channel-based concurrency" [[link]](https://doi.org/10.1145/3563318)
+* Yoshida and Gheri: "A Very Gentle Introduction to
+Multiparty Session Types" [[link]](https://mrg.cs.ox.ac.uk/publications/a-very-gentle-introduction-to-multiparty-session-types/corrected.pdf)
+
 
 
 
