@@ -42,6 +42,8 @@ Concurrency: Deadlock Freedom by Typing" [[link]](https://arxiv.org/pdf/2412.082
 
 ### Friday:
 * Pérez and Caires: "Linearity, Control Effects, and Behavioural Types." [[link]](https://doi.org/10.1007/978-3-662-54434-1_9)
+* Paulus, Nantes-Sobrinho, Pérez:
+"Non-Deterministic Functions as Non-Deterministic Processes (Extended Version)" [[link]](https://doi.org/10.46298/lmcs-19(4:1)2023)
 * Caires and Rocha: The CLASS programming language [[link]](https://luiscaires.org/software/)
 * Vasconcelos et al: The FreeST programming language [[link]](https://freest-lang.github.io/)
 
