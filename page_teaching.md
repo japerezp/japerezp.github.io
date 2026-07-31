@@ -97,3 +97,6 @@ In addition to "Elements of Interaction", you may find the following pointers us
 ### Contact me!
 
 Once you have read one or several of the papers above, feel free to send me an email to schedule a meeting.
+
+## Graduate Courses
+* Course on "Logical Foundations of Concurrent Computation" taught at the [ECI 2026](https://eci.dc.uba.ar/) (39th School of Informatic Sciences, Buenos Aires, Argentina). See the [course page](https://jperez.nl/teaching/eci26/).
