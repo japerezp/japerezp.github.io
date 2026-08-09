@@ -10,13 +10,13 @@ I currently coordinate and teach the following courses in the [Bachelor Computin
 
 | Course              |     |
 | :---------------- | :------: | 
-| [Models and Semantics of Computation](https://ocasys.rug.nl/current/catalog/course/WMCS026-05)  (MSc, 1A)             |[Schedules](https://rooster.rug.nl/#/en/current/schedule/course-WMCS026-05/timeRange=all) |
-| [Basic Approaches to the Semantics of Computation](https://ocasys.rug.nl/current/catalog/course/WBCS061-05) (BSc, 1B)   |   [Schedules](https://rooster.rug.nl/#/en/current/schedule/course-WBCS061-05/timeRange=all) |
+| [Models and Semantics of Computation](https://ocasys.rug.nl/current/catalog/course/WMCS026-05)  (MSc, 1A)             |[Schedules](https://rooster.rug.nl/2026-2027?courseOffering=195763) |
+| [Basic Approaches to the Semantics of Computation](https://ocasys.rug.nl/current/catalog/course/WBCS061-05) (BSc, 1B)   |   [Schedules](https://rooster.rug.nl/2026-2027?courseOffering=196035) |
 | [Languages and Machines](https://ocasys.rug.nl/current/catalog/course/WBCS027-05) (BSc, 2B)        |    [Schedules](https://rooster.rug.nl/#/en/current/schedule/course-WBCS027-05/timeRange=all) |
 
 <div class="spacer"></div>
 
-## Supervised Projects (BSc and MSc)
+## Supervised Projects (BSc and MSc students)
 
 ### General Information (Last updated: March 21, 2026)
 Looking for a student project? Did you enjoy BSc courses like *Languages and Machines* and *Basic Approaches to the Semantics of Computation*?  Here I collect information for BSc and MSc students interested in working under my supervision.
