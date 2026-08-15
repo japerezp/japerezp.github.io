@@ -20,12 +20,13 @@ intro: |  # This should be Markdown
   // [ACM DL](http://dl.acm.org/author_page.cfm?id=81339521988)
 details: |  # This should be Markdown
   ## Research Interests
-  Establishing rigorous foundations for reliable communicating programs is a pressing challenge, especially as automated tools generate unreliable code at unprecedented speed.
+ **My research addresses the urgent need for rigorous foundations in reliable communicating programs, particularly as automated tools produce unreliable code at an unprecedented scale.**
+ 
+I focus on the design, analysis, and verification of programs for concurrent and distributed computing, exploring:
 
-  I study how to design, analyze, and verify programs for concurrent and distributed computing.
-  - **Formal models for concurrent and distributed systems** (especially [process calculi](https://en.wikipedia.org/wiki/Process_calculus)) and their rigorous verification techniques.
-  - **Type systems for concurrent programming**, with a focus on [session types](https://en.wikipedia.org/wiki/Session_type) and their **logical foundations**.
-  - Exploring the **expressive power of concurrent models** to understand their strenghts and limitations in modeling real-world programs and systems.
+- **Formal models for concurrent and distributed systems** (especially [process calculi](https://en.wikipedia.org/wiki/Process_calculus)) and their verification techniques to ensure correctness,
+- **Type systems for concurrent programming**, with a focus on [session types](https://en.wikipedia.org/wiki/Session_type) and their logical foundations,
+- The **expressive power of concurrent models** to better understand their strengths and limitations in modeling real-world systems.
 ---
 
 <div class="home intro">
