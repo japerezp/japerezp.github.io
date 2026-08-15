@@ -100,3 +100,7 @@ Once you have read one or several of the papers above, feel free to send me an e
 
 ## Graduate Courses
 * Course on "Logical Foundations of Concurrent Computation" taught at the [ECI 2026](https://eci.dc.uba.ar/) (39th School of Informatic Sciences, Buenos Aires, Argentina). See the [course page](https://jperez.nl/teaching/eci26/).
+
+* Course on "Session Types" taught at the [Dutch Winter School on Logic and Verification](https://www.cyclic-structures.nl/school2026/). See the [course materials](https://github.com/jespercockx/dutch-logic-verification-winter-school).
+
+* Course on "Propositions as Sessions" taught at [ESSLLI 2024](https://2024.esslli.eu/). See the [course page](https://groupoid.moe/esslli2024/index.html).
