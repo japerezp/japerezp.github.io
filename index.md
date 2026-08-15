@@ -26,7 +26,7 @@ details: |  # This should be Markdown
   - **Type systems for concurrent programming**, with a focus on [session types](https://en.wikipedia.org/wiki/Session_type) and their **logical foundations**
   - The **expressive power of concurrent models** to better understand their strenghts and limitations in modeling real-world systems
 
-  I pursue a **maximalist approach** to **correct-by-construction** message-passing programs, combining realistic specification languages with the strongest correctness guarantees possible. My recent work on [context-free session types with deadlock freedom by typing](https://doi.org/10.48550/arXiv.2506.20356) exemplifies this vision.
+  I pursue a **maximalist approach** to correct-by-construction message-passing programs, combining realistic specification languages with the strongest correctness guarantees possible. My recent work on [context-free session types with deadlock freedom by typing](https://doi.org/10.48550/arXiv.2506.20356) (FORTE 2026) exemplifies this vision.
 ---
 
 <div class="home intro">
