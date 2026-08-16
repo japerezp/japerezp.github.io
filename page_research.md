@@ -6,11 +6,8 @@ permalink: /research/
 
 ### Research Interests
 I focus on the analysis and verification of programs for concurrent and distributed computing, exploring:
-
 * *Formal models for concurrent and distributed systems* (especially [**process calculi**](https://en.wikipedia.org/wiki/Process_calculus)) and their verification techniques, both static and dynamic
-
 *  *Type systems for concurrent programming*, with a focus on [**session types**](https://en.wikipedia.org/wiki/Session_type) and their logical foundations
-  
 * The *expressive power of concurrent models* to better understand their strenghts and limitations in modeling real-world systems
 
 #### Keywords 
