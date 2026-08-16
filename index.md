@@ -22,7 +22,7 @@ details: |  # This should be Markdown
   ## Research Interests
   **My research addresses the urgent need for rigorous foundations in reliable communicating programs, particularly as automated tools churn out unreliable code at an unprecedented scale.** I focus on the analysis and verification of programs for concurrent and distributed computing, exploring:
 
-  - *Formal models for concurrent and distributed systems* (especially [**process calculi**](https://en.wikipedia.org/wiki/Process_calculus)) and their verification techniques, both static and dynamic
+  - *Formal models* (especially [**process calculi**](https://en.wikipedia.org/wiki/Process_calculus)) and their verification techniques, both static and dynamic
   - *Type systems for concurrent programming*, with a focus on [**session types**](https://en.wikipedia.org/wiki/Session_type) and their logical foundations
   - The *expressive power of concurrent models* to better understand their strenghts and limitations in modeling real-world systems
 
