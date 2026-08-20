@@ -13,14 +13,14 @@ intro: |  # This should be Markdown
 
   Chair, [**IFIP Working Group 6.1**: Architectures and Protocols for Distributed Systems](https://tc6.ifip.org/wg-6-1-architectures-and-protocols-for-distributed-systems/).
 
-  **[My CV](http://japerezp.github.io/files/PerezCV.pdf)** 
+  **[CV](http://japerezp.github.io/files/PerezCV.pdf)** 
   // [DBLP](https://dblp.uni-trier.de/pid/p/JorgeAPerez.html) 
   // [Google Scholar](http://scholar.google.com/citations?user=NJ4UhIwAAAAJ) 
   // [ORCID](http://orcid.org/0000-0002-1452-6180) 
   // [ACM DL](http://dl.acm.org/author_page.cfm?id=81339521988)
 details: |  # This should be Markdown
   ## Research Interests
-  **My research addresses the urgent need for rigorous foundations in reliable communicating programs, particularly as automated tools churn out unreliable code at an unprecedented scale.** I focus on the analysis and verification of programs for concurrent and distributed computing, exploring:
+  **My research addresses the rigorous foundations of reliable programs.** Verification is an urgent need, particularly as automated tools churn out unreliable code at an unprecedented scale. I focus on the analysis and verification of **communicating programs**, which underpin concurrent and distributed computing, exploring:
 
   - *Formal models* (especially [**process calculi**](https://en.wikipedia.org/wiki/Process_calculus)) and their verification techniques, both static and dynamic
   - *Type systems for concurrent programming*, with a focus on [**session types**](https://en.wikipedia.org/wiki/Session_type) and their logical foundations
