@@ -1,13 +1,13 @@
 ---
 layout: page
-title: "Veri-Grold 2026"
+title: "VERI-GROLD 2026"
 permalink: /events/verigrold26/
 ---
 
-# Verified Software Initiative - Groningen and Oldenburg
+# Verified Software Initiative - Groningen and Oldenburg (VERI-GROLD)
 
 ## Motivation 
-Our increasing dependence on digital technologies stresses the need for reliable and trustworthy software. Research groups in Groningen and Oldenburg have considerable expertise on software verification, the branch of Computer Science that studies rigorous techniques for ensuring that software always works as intended. Although these groups share overlapping interests, currently they do not collaborate. Given their scientific and geographical proximity, this is a missed opportunity. As an initial step to bridge this gap, we have organized two scientific workshops, one in each city. 
+Our increasing dependence on digital technologies stresses the need for reliable and trustworthy software. Research groups in Groningen and Oldenburg have considerable expertise on **software verification**, the branch of Computer Science that studies rigorous techniques for ensuring that software always works as intended. Although these groups share overlapping interests, currently they do not collaborate. Given their scientific and geographical proximity, this is a missed opportunity. As an initial step to bridge this gap, we have organized **two scientific workshops**, one in each city. 
 
 ## Involved Groups
 
@@ -35,7 +35,7 @@ The group’s mission is to apply rigorous mathematics to develop methods and to
 
 
 ## Visits
-### Groningen visits Oldenburg: March 9, 2026.
+### Groningen visits Oldenburg: March 9, 2026
 List of presentations:
 * Pérez: *Logical Foundations of Concurrent Computation* ([slides](http://japerezp.github.io/files/Oldenburg2026/perez.pdf))
 * Fränzle: *Indecision and Delay Are the Parents of Failure* ([slides](http://japerezp.github.io/files/Oldenburg2026/franzle.pdf))
