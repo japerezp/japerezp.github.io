@@ -1,10 +1,10 @@
 ---
 layout: page
-title: "VERI-GROLD 2026"
+title: "VERI-GROLD"
 permalink: /events/verigrold26/
 ---
 
-# Verified Software Initiative - Groningen and Oldenburg (VERI-GROLD)
+# Verified Software Initiative - Groningen and Oldenburg
 
 ## Motivation 
 Our increasing dependence on digital technologies stresses the need for reliable and trustworthy software. Research groups in Groningen and Oldenburg have considerable expertise on **software verification**, the branch of Computer Science that studies rigorous techniques for ensuring that software always works as intended. Although these groups share overlapping interests, currently they do not collaborate. Given their scientific and geographical proximity, this is a missed opportunity. As an initial step to bridge this gap, we have organized **two scientific workshops**, one in each city. 
