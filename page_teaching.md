@@ -10,7 +10,7 @@ I currently coordinate and teach the following courses in the [Bachelor Computin
 
 | Course              |     |
 | :---------------- | :------: | 
-| [Models and Semantics of Computation](https://ocasys.rug.nl/current/catalog/course/WMCS026-05)  ([MSc](http://japerezp.github.io/files/MASC/M4.pdf), 1A)             |[Schedules](https://rooster.rug.nl/2026-2027?courseOffering=WMCS026-05.2026-2027.1) |
+| [Models and Semantics of Computation](https://ocasys.rug.nl/current/catalog/course/WMCS026-05)  ([MSc](http://japerezp.github.io/files/MASC/M6.pdf), 1A)             |[Schedules](https://rooster.rug.nl/2026-2027?courseOffering=WMCS026-05.2026-2027.1) |
 | [Basic Approaches to the Semantics of Computation](https://ocasys.rug.nl/current/catalog/course/WBCS061-05) (BSc, 1B)   |   [Schedules](https://rooster.rug.nl/2026-2027?courseOffering=WBCS061-05.2026-2027.1) |
 | [Languages and Machines](https://ocasys.rug.nl/current/catalog/course/WBCS027-05) (BSc, 2B)        |    [Schedules](https://rooster.rug.nl/2026-2027?courseOffering=WBCS027-05.2026-2027.1) |
 
