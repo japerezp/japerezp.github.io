@@ -54,7 +54,8 @@ List of presentations:
 * Bliznets
 * Massoud: *Privacy-Evidence-Oriented
 Monitor/Observer Synthesis* ([slides](http://japerezp.github.io/files/Oldenburg2026/massoud.pdf))
-* Jongmans
+* Jongmans: *A Synthetic Reconstruction of
+Multiparty Session Types* ([slides](http://japerezp.github.io/files/Oldenburg2026/jongmans-Sept.pdf))
 * Matheja
 * Pérez 
 * Fränzle: *Topics for Joint Project Incubation* ([slides](http://japerezp.github.io/files/Oldenburg2026/franzle-Sept.pdf))
