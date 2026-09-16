@@ -56,4 +56,4 @@ List of presentations:
 * Jongmans
 * Matheja
 * Pérez 
-* Fränzle
+* Fränzle: *Topics for Joint Project Incubation* ([slides](http://japerezp.github.io/files/Oldenburg2026/franzle-Sept.pdf))
