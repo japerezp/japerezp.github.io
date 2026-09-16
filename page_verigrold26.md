@@ -39,7 +39,7 @@ The group’s mission is to apply rigorous mathematics to develop methods and to
 List of presentations:
 * Pérez: *Logical Foundations of Concurrent Computation* ([slides](http://japerezp.github.io/files/Oldenburg2026/perez.pdf))
 * Fränzle: *Indecision and Delay Are the Parents of Failure* ([slides](http://japerezp.github.io/files/Oldenburg2026/franzle.pdf))
-* Frumin: *Petri Nets*
+* Frumin: *Petri Nets as Model for Session Typed 𝜋-calculus* ([slides](http://japerezp.github.io/files/Oldenburg2026/frumin.pdf))
 * Wehrheim: *Deductive concurrency verification on
 weak memory models* ([slides](http://japerezp.github.io/files/Oldenburg2026/wehrheim.pdf))
 * Otoni: *Reasoning About Quantum Network Behaviour* ([slides](http://japerezp.github.io/files/Oldenburg2026/otoni.pdf))
@@ -52,7 +52,8 @@ of Choreographies* ([slides](http://japerezp.github.io/files/Oldenburg2026/jongm
 ###  Oldenburg visits Groningen: September 14, 2026
 List of presentations:
 * Bliznets
-* Massoud
+* Massoud: *Privacy-Evidence-Oriented
+Monitor/Observer Synthesis* ([slides](http://japerezp.github.io/files/Oldenburg2026/massoud.pdf))
 * Jongmans
 * Matheja
 * Pérez 
