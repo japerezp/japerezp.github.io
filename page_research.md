@@ -11,7 +11,7 @@ I focus on the analysis and verification of programs for concurrent and distribu
 * The *expressive power of concurrent models* to better understand their strenghts and limitations in modeling real-world systems
 
 #### Keywords 
-Concurrency Theory, Semantics of Programming Languages, Program Verification, Type Systems, [Process Calculi](https://docs.google.com/presentation/d/1-5t5okmfSM0Gcx6VJdZSe_g4LSw7KxK4oU6iR56UlzE/edit?usp=sharing).
+Concurrency Theory, Semantics of Programming Languages, Program Verification, Type Systems, Process Calculi.
 
 <div class="spacer"></div>
 
