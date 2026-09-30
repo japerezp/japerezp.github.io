@@ -11,15 +11,21 @@ I am fortunate to work with (*and learn from*) a fantastic group of young resear
 ### Current PhD students
 
 * **Bianca Fürstenau** ([URL](https://www.rug.nl/staff/bianca.furstenau/)).
-    Research on coalgebraic and semantic approaches to session types (NWO XL). *Expected graduation*: August 2029.
+    Research on coalgebraic and semantic approaches to session types (NWO XL). 
 
-* **Juan C. Jaramillo** ([URL](https://juanjaramillo.nl/), [DBLP](https://dblp.org/pid/162/6010.html)).
-    PhD student. Thesis: *A Comparative Study of Type Systems for Deadlock-Free Processes* [(DOI)](https://hdl.handle.net/11370/536049f5-ca9a-4aff-a589-40fde667578c). Graduation date: September 29, 2026.
+* **David Läwen** ([URL](https://www.ru.nl/en/people/lawen-d)).
+    Research on liveness in program logics (NWO XL). Main supervisor: Robbert Krebbers.
 
+* **Nadine Muller** ([URL](https://personen.utwente.nl/nadine.muller)).
+    Research on concurrent approaches to causality (NWO XL). Main supervisor: Georgiana Caltais.
 
 <div class="spacer"></div>
 
 ### Former PhD Students and Postdocs
+
+* **Juan C. Jaramillo (2026).** 
+    PhD student. Thesis: *A Comparative Study of Type Systems for Deadlock-Free Processes* [(DOI)](https://hdl.handle.net/11370/536049f5-ca9a-4aff-a589-40fde667578c). 
+
 
 * **Joseph Paulus (2024).** PhD student. Thesis: *On the Expressivity of Typed Concurrent Calculi*.  [(DOI)](https://doi.org/10.33612/diss.1088151570)  - Extended version: [(DOI)](https://doi.org/10.48550/arXiv.2408.07915).
 
