@@ -19,6 +19,10 @@ I am fortunate to work with (*and learn from*) a fantastic group of young resear
 * **Nadine Muller** ([URL](https://personen.utwente.nl/nadine.muller)).
     Research on concurrent approaches to causality (NWO XL). Main supervisor: Georgiana Caltais.
 
+* **Andy Tatman** ([URL](https://www.rug.nl/staff/a.s.tatman/)).
+    Research on bounded model checking in TLA+. Main supervisor: Rodrigo Otoni.
+
+
 <div class="spacer"></div>
 
 ### Former PhD Students and Postdocs
