@@ -10,8 +10,8 @@ I am fortunate to work with (*and learn from*) a fantastic group of young resear
 
 ### Current PhD students
 
-* **Bianca Fürstenau** ([URL](https://www.rug.nl/staff/bianca.furstenau/)).
-    Research on coalgebraic and semantic approaches to session types (NWO XL). 
+<!--* **Bianca Fürstenau** ([URL](https://www.rug.nl/staff/bianca.furstenau/)).
+    Research on coalgebraic and semantic approaches to session types (NWO XL). -->
 
 * **David Läwen** ([URL](https://www.ru.nl/en/people/lawen-d)).
     Research on liveness in program logics (NWO XL). Main supervisor: Robbert Krebbers.
