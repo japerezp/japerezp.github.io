@@ -27,6 +27,7 @@ Concurrency Theory, Semantics of Programming Languages, Program Verification, Ty
 #### Future Events
 * [FSCD 2027](https://fscd-conference.org/): 12th International Conference on Formal Structures for Computation and Deduction (PC member)
 * [ECOOP 2027](https://2027.ecoop.org/): 41st European Conference on Object-Oriented Programming (PC member)
+
 #### Recent and Past Events
 * [STARS 2026](https://stars-workshop.github.io/): First workshop on STAtic + Runtime verification Synergies (Contributed Talk)
 * [Reliable Software by Construction](https://www.lorentzcenter.nl/reliable-software-by-construction.html): Lorentz Center workshop, October 2026 (Co-organizer)
